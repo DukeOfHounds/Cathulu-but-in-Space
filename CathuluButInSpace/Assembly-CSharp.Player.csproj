@@ -59,9 +59,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\AsteroidGenerator.cs" />
     <Compile Include="Assets\Scripts\Spaceship.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DeepSpaceSkyboxPack\GalaxyFire\Galaxy Fire Skybox Readme.txt" />
@@ -620,6 +620,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{4B2E3AA4-E63C-B510-3631-18205E382AF2}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{A5A60A61-DB22-5096-386C-6C7BE8F3CF8C}</Project>
       <Name>Unity.Timeline</Name>
@@ -647,10 +651,6 @@
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{2A652D6D-A09E-B221-956C-5A46D59C856F}</Project>
       <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{4B2E3AA4-E63C-B510-3631-18205E382AF2}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
