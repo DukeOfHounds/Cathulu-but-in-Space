@@ -29,17 +29,25 @@ public class Spaceship : MonoBehaviour
     private float boostRechargRate = 0.5f;//gas refil
     [SerializeField]
     private float boostMultiplier = 5f;//speed increase
+    [SerializeField]
     public bool boosting = false;
+    [SerializeField]
     public float currentBoostAmount;
 
-
+    [Header("=== Drag/Speed Reduction Settings ===")]
     [SerializeField, Range(0.001f, 0.999f)]
     private float upDownGlideReduction = 0.111f;
     [SerializeField, Range(0.001f, 0.999f)]
     private float leftRightGlideReduction = 0.111f;
     [SerializeField, Range(0.001f, 0.999f)]
     private float thrustGlideReduction = 0.111f;
-    private float forwardGlide, verticalGlide, horizontalGlide = 0f;
+    [SerializeField, Range(0.001f, 0.999f)]
+    private float rollGlideReduction = 0.111f;
+    private float forwardGlide, verticalGlide, horizontalGlide, rollGlide = 0f;
+
+    [Header("=== Drag/Speed Reduction Settings ===")]
+    [SerializeField]
+    private float health = 10;
 
     Rigidbody rb;
 
@@ -60,6 +68,18 @@ public class Spaceship : MonoBehaviour
     {
         HandleBoosting();
         HandleMovement();
+        HandleHealth();
+    }
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+    }
+    void HandleHealth()
+    {
+        if(health <= 0)
+        {
+            FindObjectOfType<GameManager>().GameOver();
+        }
     }
     void HandleBoosting()
     {
@@ -82,7 +102,19 @@ public class Spaceship : MonoBehaviour
     void HandleMovement()
     {
         //Roll
-        rb.AddRelativeTorque(Vector3.back * roll1D * rollTorque * Time.deltaTime);
+        if (roll1D > 0.1f || roll1D < -0.1f)
+        {
+
+
+            rb.AddRelativeTorque(Vector3.back * roll1D * rollTorque * Time.deltaTime);
+            rollGlide = upDown1D * upThrust;
+        }
+        else
+        {
+            rb.AddRelativeForce(Vector3.back * rollGlideReduction * Time.deltaTime);
+
+     
+        }
         //Pitch
         rb.AddRelativeTorque(Vector3.right * Mathf.Clamp(-pitchYaw.y, -1f, 1f) * pitchTorque * Time.deltaTime);
         //Yaw
