@@ -8,6 +8,7 @@ public class CameraController : MonoBehaviour
 
     public Transform targetPoint;
 
+
     public float moveSpeed = 8f, rotateSpeed = 3f;
 
     private void Awake()

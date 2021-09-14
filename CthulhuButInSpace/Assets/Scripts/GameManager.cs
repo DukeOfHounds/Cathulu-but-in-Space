@@ -41,8 +41,8 @@ public class GameManager : MonoBehaviour
     }
     private void DisplayGameOver()// sets Game Over screen to visible 
     {
-        
-            gameOverUI.SetActive(true);
+        Cursor.visible = true;
+        gameOverUI.SetActive(true);
         
     }
     private void CloseGameOver()// sets Game Over screen to visible 

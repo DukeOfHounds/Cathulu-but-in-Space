@@ -50,6 +50,7 @@ public class Spaceship : MonoBehaviour
     private float health = 10;
 
     Rigidbody rb;
+    GameObject ship;
 
     private float thrust1D, upDown1D, strafe1D, roll1D;
     private Vector2 pitchYaw;
@@ -59,7 +60,7 @@ public class Spaceship : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         currentBoostAmount = maxBoostAmount;
-
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
     }
 
