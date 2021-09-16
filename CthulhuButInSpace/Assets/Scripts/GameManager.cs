@@ -7,37 +7,47 @@ public class GameManager : MonoBehaviour
 {
     [Header("=== Menue Toggles ===")]
     [SerializeField]
-    private bool gameOver = false;
+    private bool gameOver = false; // should the gameOver screen show bool
 
     [Header("=== Menue Toggles ===")]
     [SerializeField]
-    private float timeDelay = 2f;
+    private float timeDelay = 2f;// pause in time before a UI is displayed
 
-    public GameObject gameOverUI;
+    public GameObject gameOverUI;// game over UI
 
-    private void Update()
+    private void Update()// for testing purposes. 
     {
         if (gameOver == true)
         {
-            Invoke("DisplayGameOver", timeDelay);
+            DisplayGameOver();
         }
         if (gameOver == false)
         {
 
-            Invoke("CloseGameOver", timeDelay);
+            CloseGameOver();
 
         }
 
     }
-    public void GameOver()
+    public void GameOver()// public method displaying UI that can be referenced by classes
     {
         if (gameOver == false)
         {
             gameOver = true;
-            Debug.Log("GAME OVER");
-           
+            Invoke("DisplayGameOver", timeDelay); //Opens UI
+
         }
         
+    }
+    public void GameNotOver()// public method Closing UI that can be referenced by classes
+    {
+        if (gameOver == true)
+        {
+            gameOver = false;
+            Invoke("CloseGameOver", timeDelay); // closes UI
+
+        }
+
     }
     private void DisplayGameOver()// sets Game Over screen to visible 
     {
@@ -47,14 +57,14 @@ public class GameManager : MonoBehaviour
     }
     private void CloseGameOver()// sets Game Over screen to visible 
     {
-
+        Cursor.visible = false;
         gameOverUI.SetActive(false);
 
     }
     public void Restart()// Reloads current Scene
     {
-        gameOverUI.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        CloseGameOver();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reloads current Scene
     }
     
 }
