@@ -4,14 +4,21 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-public class MissleControl : MonoBehaviour
+public class ProjectileControl : MonoBehaviour
 {
-    public Transform LaunchPoint;
+   
     public Camera cam;
-    public GameObject projectile;
     public Rigidbody spaceship;
-    public float projectileSpeed = 1;
-    private List<GameObject> MissilesFired = new List<GameObject>();
+
+    public Transform laserLaunchPoint;
+    public GameObject laser;
+    public float laserSpeed = 1; 
+
+    public Transform missileLaunchPoint;
+    public GameObject missile;
+    public float missileSpeed = 1;
+
+    private List<GameObject> ProjectilesFired = new List<GameObject>();
     private Vector3 destination;
     private bool isFiring;
 
@@ -19,21 +26,7 @@ public class MissleControl : MonoBehaviour
     [SerializeField]
     private float speed = 100000;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void LaunchMissile()
+    public void FireLaser()
     {
         //creates a projectile at LuanchPoint, with a rotaition facing ship forward. 
         Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
@@ -44,19 +37,19 @@ public class MissleControl : MonoBehaviour
         else
             destination = ray.GetPoint(1000);
 
-        InstantiateProjectile(LaunchPoint);
+        InstantiateProjectile(laserLaunchPoint);
     }
 
     void InstantiateProjectile(Transform firePoint)
     {
-        var projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
-        projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * projectileSpeed;
+        var projectileObj = Instantiate(laser, firePoint.position, Quaternion.identity) as GameObject;
+        projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * laserSpeed;
     }
 
     IEnumerator LaunchCheck()
     {
         isFiring = true;
-        LaunchMissile();
+        FireLaser();
         yield return new WaitForSeconds(.2f);
         isFiring = false;
 
