@@ -67,7 +67,7 @@
                     "id": "bde0b333-1f4b-4192-b1f6-d746caad385d",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Tap(duration=0.2,pressPoint=0.5)"
+                    "interactions": "Tap"
                 }
             ],
             "bindings": [

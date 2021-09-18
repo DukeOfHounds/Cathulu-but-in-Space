@@ -5,7 +5,9 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Spaceship : MonoBehaviour
-{
+{   
+    public float maxSpeed = 1;
+    
     [Header("=== Ship Movement Settings ===")]
     [SerializeField]
     private float yawTorque = 500f;// right left turning force
@@ -69,7 +71,8 @@ public class Spaceship : MonoBehaviour
     {
         HandleBoosting(); 
         HandleMovement();
-        HandleHealth(); 
+        HandleHealth();
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
     }
     public void TakeDamage(float damage)
     {
