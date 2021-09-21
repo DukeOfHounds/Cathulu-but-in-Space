@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class ProjectileKill : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject projectile;
+    public float timeToKill;
 
     // Update is called once per frame
     void Update()
     {
-        
+        Destroy(projectile, timeToKill);  
     }
 }

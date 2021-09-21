@@ -10,7 +10,8 @@ public class ProjectileControl : MonoBehaviour
     public Camera cam;
     public Rigidbody spaceship;
 
-    public Transform laserLaunchPoint;
+    public Transform laserLaunchPoint1;
+    public Transform laserLaunchPoint2;
     public GameObject laser;
     public float laserSpeed = 1; 
 
@@ -37,13 +38,14 @@ public class ProjectileControl : MonoBehaviour
         else
             destination = ray.GetPoint(1000);
 
-        InstantiateProjectile(laserLaunchPoint);
+        InstantiateProjectile(laserLaunchPoint1);
+        InstantiateProjectile(laserLaunchPoint2);
     }
 
     void InstantiateProjectile(Transform firePoint)
     {
         var projectileObj = Instantiate(laser, firePoint.position, Quaternion.identity) as GameObject;
-        projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * laserSpeed;
+        projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * laserSpeed +spaceship.velocity;
     }
 
     IEnumerator LaunchCheck()

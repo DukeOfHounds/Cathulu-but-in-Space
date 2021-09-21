@@ -325,7 +325,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/AsteroidGenerator.cs"
-"Assets/Scripts/CameraController.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/ProjectileControl.cs"
 "Assets/Scripts/ProjectileKill.cs"
