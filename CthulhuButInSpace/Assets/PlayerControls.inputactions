@@ -62,9 +62,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "LaunchMissile",
+                    "name": "LaunchLaser",
                     "type": "Button",
                     "id": "bde0b333-1f4b-4192-b1f6-d746caad385d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "LaunchMissile",
+                    "type": "Button",
+                    "id": "b3ab4346-c5fd-4014-a701-9557536ac600",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Tap"
@@ -394,6 +402,17 @@
                     "name": "",
                     "id": "9f295a2f-2b46-4450-8aa8-091c0d1cc783",
                     "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaunchLaser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08d5e9b9-6585-41d5-bc10-e2c5a31a9aee",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

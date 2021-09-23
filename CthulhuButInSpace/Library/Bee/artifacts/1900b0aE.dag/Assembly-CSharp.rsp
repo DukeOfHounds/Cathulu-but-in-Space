@@ -326,6 +326,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/AsteroidGenerator.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HealthScript.cs"
 "Assets/Scripts/ProjectileControl.cs"
 "Assets/Scripts/ProjectileKill.cs"
 "Assets/Scripts/Spaceship.cs"

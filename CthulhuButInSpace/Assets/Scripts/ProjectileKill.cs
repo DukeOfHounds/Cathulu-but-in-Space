@@ -2,14 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileKill : MonoBehaviour
+namespace HealthAndDamage
 {
-    public GameObject projectile;
-    public float timeToKill;
-
-    // Update is called once per frame
-    void Update()
+    public class ProjectileKill : MonoBehaviour
     {
-        Destroy(projectile, timeToKill);  
+        public GameObject projectile;
+        public float timeToKill = 2;
+
+        public int Damage = 2;
+
+        // Update is called once per frame
+        void Update()
+        {
+            Destroy(projectile, timeToKill);
+        }
+
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "Asteroid")
+            {
+
+                collision.gameObject.GetComponent<HealthScript>().takeDamage(Damage);         
+                if (projectile.gameObject.tag == "Missile")
+                {
+                    Destroy(projectile);
+                }
+
+            }
+        }
     }
 }
