@@ -6,7 +6,7 @@ public class AsteroidGenerator : MonoBehaviour
 {
     public float spawnRange;
     public float amountToSpawn;
-    private Vector3 spawnPoint;
+    private  Vector3 spawnPoint;
     public GameObject asteroidOne;
     public GameObject asteroidTwo;
     public float startSafeRange;
@@ -17,8 +17,10 @@ public class AsteroidGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
         for (int i = 0; i < amountToSpawn; i++)
         {
+
             PickSpawnPoint();
 
             //pick new spawn point if too close to player start
@@ -41,18 +43,19 @@ public class AsteroidGenerator : MonoBehaviour
 
         }
 
-        if (onoff)
-        {
-            asteroidOne.SetActive(false);
-        }
-        else
-        {
-            asteroidTwo.SetActive(false);
-        }
+        //if (onoff)
+        //{
+        //    asteroidOne.SetActive(false);
+        //}
+        //else
+        //{
+        //    asteroidTwo.SetActive(false);
+        //}
     }
 
     public void PickSpawnPoint()
     {
+        Vector3 origin = gameObject.transform.position;
         spawnPoint = new Vector3(
             Random.Range(-1f, 1f),
             Random.Range(-1f, 1f),
@@ -64,6 +67,7 @@ public class AsteroidGenerator : MonoBehaviour
         }
 
         spawnPoint *= spawnRange;
+        spawnPoint += origin; 
     }
 }
 

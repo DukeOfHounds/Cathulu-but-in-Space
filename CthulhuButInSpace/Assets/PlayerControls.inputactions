@@ -76,6 +76,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Tap"
+                },
+                {
+                    "name": "LaunchShockWave",
+                    "type": "Button",
+                    "id": "b10846cc-59c9-4d85-b10a-b9df6f75a2cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
                 }
             ],
             "bindings": [
@@ -368,7 +376,7 @@
                 {
                     "name": "",
                     "id": "065c35b7-a1f7-4b12-8295-71d96bc58844",
-                    "path": "<Keyboard>/alt",
+                    "path": "<Mouse>/middleButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -417,6 +425,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "LaunchMissile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56ba1b3f-3f20-46cd-8e69-a17764a8590f",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaunchShockWave",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

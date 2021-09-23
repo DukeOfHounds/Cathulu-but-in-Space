@@ -11,23 +11,30 @@ namespace HealthAndDamage
         public Camera cam;
         public Rigidbody spaceship;
 
+        [Header("=== Laser Settings ===")]
         public Transform laserLaunchPoint1;
         public Transform laserLaunchPoint2;
         public GameObject laser;
         public float laserSpeed = 1;
 
+        [Header("=== Missle Settings ===")]
         public Transform missileLaunchPoint1;
         public Transform missileLaunchPoint2;
         public GameObject missile;
         public float missileSpeed = 1;
 
+        [Header("=== Shock Wave Settings ===")]
+        public Transform shockWaveLaunchPoint1;
+        public Transform shockWaveLaunchPoint2;
+        public GameObject shockWave;
+        public float shockWaveSpeed = 1;
+
         private List<GameObject> ProjectilesFired = new List<GameObject>();
         private Vector3 destination;
         private bool isFiring;
 
-        [Header("=== Missle Settings ===")]
-        [SerializeField]
-        private float speed = 100000;
+        
+     
 
         public void FireLaser()
         {
@@ -40,8 +47,22 @@ namespace HealthAndDamage
             else
                 destination = ray.GetPoint(1000);
 
-            InstantiateProjectile(laserLaunchPoint1, laser);
-            InstantiateProjectile(laserLaunchPoint2, laser);
+            InstantiateProjectile(laserLaunchPoint1, laser, laserSpeed);
+            InstantiateProjectile(laserLaunchPoint2, laser, laserSpeed);
+        }
+        public void FireShockWave()
+        {
+            //creates a projectile at LuanchPoint, with a rotaition facing ship forward. 
+            Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit))
+                destination = hit.point;
+            else
+                destination = ray.GetPoint(1000);
+
+            InstantiateProjectile(laserLaunchPoint1, shockWave,shockWaveSpeed);
+            InstantiateProjectile(laserLaunchPoint2, shockWave, shockWaveSpeed);
         }
         public void FireMissile()
         {
@@ -52,15 +73,15 @@ namespace HealthAndDamage
             else
                 destination = ray.GetPoint(1000);
 
-            InstantiateProjectile(missileLaunchPoint1, missile);
-            InstantiateProjectile(missileLaunchPoint2, missile);
+            InstantiateProjectile(missileLaunchPoint1, missile, missileSpeed);
+            InstantiateProjectile(missileLaunchPoint2, missile, missileSpeed);
         }
 
 
-        void InstantiateProjectile(Transform firePoint, GameObject projectile)
+        void InstantiateProjectile(Transform firePoint, GameObject projectile, float speed)
         {
             var projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
-            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * laserSpeed + spaceship.velocity;
+            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * speed + spaceship.velocity;
         }
 
 
@@ -76,6 +97,14 @@ namespace HealthAndDamage
         {
             isFiring = true;
             FireMissile();
+            yield return new WaitForSeconds(.2f);
+            isFiring = false;
+
+        }
+        IEnumerator LaunchCheckShockWave()
+        {
+            isFiring = true;
+            FireShockWave();
             yield return new WaitForSeconds(.2f);
             isFiring = false;
 
@@ -97,6 +126,14 @@ namespace HealthAndDamage
             if (isFiring == false)
             {
                 StartCoroutine(LaunchCheckMissile());
+            }
+
+        }
+        public void OnLaunchShockWave(InputAction.CallbackContext context)
+        {
+            if (isFiring == false)
+            {
+                StartCoroutine(LaunchCheckShockWave());
             }
 
         }
