@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,112 +11,112 @@ C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
+C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59556
-Successfully changed project path to: C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
-C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
+52246
+Successfully changed project path to: C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
+C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
 Using Asset Import Pipeline V2.
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 75.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace/Assets
+[Subsystems] Discovering subsystems at path C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
+    VRAM:     8079 MB
     Driver:   30.0.14.7196
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001535 seconds.
+Registered in 0.002459 seconds.
 Native extension for WindowsStandalone target not found
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 76.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.340 seconds
 Domain Reload Profiling:
-	ReloadAssembly (969ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (1340ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (391ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (190ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (250ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (113ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004626 seconds.
+Registered in 0.005979 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 74.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  1.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1112ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (936ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (1165ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (359ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (561ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (297ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (359ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -131,15 +131,15 @@ Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.4 MB.
-System memory in use after: 125.6 MB.
+Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3860.
-Total: 3.617000 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.124900 ms MarkObjects: 3.154700 ms  DeleteObjects: 0.055300 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 3.197400 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.100200 ms MarkObjects: 2.739000 ms  DeleteObjects: 0.057600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,189 +153,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SavedObjects/Ship_BaseObject.prefab
-  artifactKey: Guid(105fdf3e45ddce8439599f93b85138d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Ship_BaseObject.prefab using Guid(105fdf3e45ddce8439599f93b85138d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04c8cc57380e6a017aae0c4719aa0a2') in 0.100154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.375042 seconds.
-  path: Assets/SavedObjects/ProjectileBase 1.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase 1.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61941478ce1bccec23bd296fa045a44b') in 0.015912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.761636 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2519516ff9a1f0c25b4ac940442edb0e') in 0.009338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.555811 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3873b670082cbbd4f03ac571a2c100a7') in 0.006963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.692469 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff6865eae9c9bd8652a5f976cf50a96') in 0.009330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.161278 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062d0c05e5ffa2a9c5038ac1f06703f3') in 0.006026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.057227 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc63c033882a6831aade99247e141aa') in 0.005943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.523356 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92a6e700ef2030ce6d5d92fe5009111') in 0.006073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.023730 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba79049bee4d17f7e0e0022623c2c716') in 0.005863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.604239 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817605be62ae92096d351098020a2f46') in 0.007225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.800364 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa2df0b1e1b105159488e455fbac44') in 0.008033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.201399 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe2464de8b7281ecd9be680b0ef138a') in 0.006743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.998212 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb634cba3cab2e02e30d38572eb7b58') in 0.011135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.592192 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2416d35d354baccaea74388fd8581d1') in 0.006584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.030046 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d2ccced5625580e592772e0bb02715') in 0.005781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.595668 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fb266c71b6b1b73e6ad1ef8b4b3277') in 0.006237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.821207 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625ff372686af74999ba98d498bd6f51') in 0.006598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.396003 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112ee1bbe989ae51611ab2a1ba9b313b') in 0.007445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.794636 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81c54c331e0a4c08c2b4a2d00e2c863') in 0.006602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.636332 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e255aa035e827296353f88f59fc9e206') in 0.007027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.000803 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da70687070287a529618bacd17eecfa1') in 0.006314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.598620 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80706a05bf2af2b8840603d12e432d6a') in 0.007912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.389784 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab084b8d7ecdc5e449e034a2182ea63') in 0.005728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.256220 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa8c46eb51c11bc9aa13b0c32c406f4') in 0.005759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.803949 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994f7c35ed4590b7b7be87baf38a4444') in 0.006921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.811112 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbfdc0512f92cdab1e4ba8dab27796b') in 0.006256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.849108 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658256662898a47325eda2a71fb11cbb') in 0.008123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.623748 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f007c067573c2b39771925a325f69b38') in 0.005864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.871075 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df2e70a807d5c3f5de5e3e54677de84') in 0.007556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.040139 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2151b0659d9d6843afd4b72564bc9e31') in 0.006820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.645322 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143655e2beb54c65571c063ec711a96d') in 0.011315 seconds 
+  path: Assets/Scripts/AsteroidGenerator.cs
+  artifactKey: Guid(b1c44bff2d9c1b240807fb87ef5eb748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AsteroidGenerator.cs using Guid(b1c44bff2d9c1b240807fb87ef5eb748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c674f9567ee6db92e1651626fcfd6f53') in 0.019463 seconds 
 ========================================================================
 Received Prepare
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -343,1108 +163,50 @@ Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.004350 seconds.
+Registered in 0.005895 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  1.226 seconds
 Domain Reload Profiling:
-	ReloadAssembly (973ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (331ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.6 MB.
-System memory in use after: 129.8 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3871.
-Total: 4.839300 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.149900 ms MarkObjects: 4.396600 ms  DeleteObjects: 0.051100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 662.827943 seconds.
-  path: Assets/Scripts/ProjectileControl.cs
-  artifactKey: Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileControl.cs using Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c884f3522733e43ba64d158e750c2') in 0.011793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.842912 seconds.
-  path: Assets/SavedObjects/Ship_BaseObject.prefab
-  artifactKey: Guid(105fdf3e45ddce8439599f93b85138d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Ship_BaseObject.prefab using Guid(105fdf3e45ddce8439599f93b85138d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335d4568a34b3ce9b5ac42dfab399302') in 0.068187 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004395 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.6 MB.
-System memory in use after: 129.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3875.
-Total: 2.902100 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.546100 ms  DeleteObjects: 0.017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 63.152295 seconds.
-  path: Assets/PlayerControls.inputactions
-  artifactKey: Guid(b71c555dbc26c234c91ce5d0ef3766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.inputactions using Guid(b71c555dbc26c234c91ce5d0ef3766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c6d3231df9cb6f11d339e0e0adca21') in 0.020486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.832845 seconds.
-  path: Assets/Models&Textures/Materials/DeepSpaceSkyboxPack/GalaxyFire/Textures/back_galaxyfire.tif
-  artifactKey: Guid(4bcc09e8d515d584b86b8ec5c19e8b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/Materials/DeepSpaceSkyboxPack/GalaxyFire/Textures/back_galaxyfire.tif using Guid(4bcc09e8d515d584b86b8ec5c19e8b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79539bb051dc6a16581cf5dc8ae1c41') in 0.038482 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005023 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
-Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (343ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3894.
-Total: 3.286800 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.875600 ms  DeleteObjects: 0.015000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004349 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1100ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (930ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3897.
-Total: 3.553100 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.141600 ms MarkObjects: 3.138000 ms  DeleteObjects: 0.016900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004604 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (858ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (367ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3900.
-Total: 3.090900 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.588500 ms  DeleteObjects: 0.015600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 371.129149 seconds.
-  path: Assets/Scripts/ProjectileControl.cs
-  artifactKey: Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileControl.cs using Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a05153cb4256c72c26ec618f5d5040') in 0.006077 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004402 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Domain Reload Profiling:
-	ReloadAssembly (959ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (335ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (370ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 3.102000 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.718000 ms  DeleteObjects: 0.016200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 250.076638 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185f7df0961a93123a485cf291dd3025') in 0.045718 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Domain Reload Profiling:
-	ReloadAssembly (957ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3907.
-Total: 2.879800 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.474200 ms  DeleteObjects: 0.032600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 97.842571 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6411b25e17230dbb83429eba6a1672') in 0.040844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.980323 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88243e8ae2b70b949862a9d8140e9ad5') in 0.023201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.973563 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a403c1957036c6eea4549a776913b0') in 0.006967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.811500 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d875327db647eadda2356b9e8faa8d7') in 0.009563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.830249 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e7415ed729e0d40ccdda243201c1ca') in 0.005984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.823230 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378866a573a269777774580398a20a04') in 0.011868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.398517 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415905aa9cc16590829b14c8944387a6') in 0.005962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.503844 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d6f7b42885c377c53bbf832fc776b6') in 0.006086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.996420 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e077dbebe40e7c04f38c34a936f0aeb6') in 0.006457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.001633 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bde16c057de982fc01245223aec80d') in 0.006178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.200889 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c951108ab6d51530b944974e92deb4') in 0.007761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.244373 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf71ee55db91f6829623e8134b92eb1') in 0.006019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.465021 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5cb41cc383ea0da9a5908894b3160e') in 0.006356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.518724 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedb7d1b33516d784ef4c8ba7fdaf1bd') in 0.006428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.892208 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd70f3c0ef66f322ca462c8e2664814') in 0.005963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.792127 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a55c1fff0d53e86bd74e8a018a4382') in 0.007085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.811773 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2731a1c96b48c2585ca3a30c47ecf012') in 0.005679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.398879 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1523bb87d58e4107a1190c64bcdaab') in 0.005976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.214539 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9948461bb63f88ccf7d92ade3b984') in 0.007416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.597702 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe02a7e7a89dbaec000dcfffeb2bcfb') in 0.006260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.397247 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9beea8b495bcab6f4a31d0264d44ea') in 0.008343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.220271 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417e3eb28267f16b0db2f1b5e411514') in 0.006222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.444798 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7177969a38bda8270b3178e054f07c6f') in 0.005920 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004965 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
-Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3911.
-Total: 3.398800 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.965600 ms  DeleteObjects: 0.037100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 70.859024 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1035cbc29b0089635fdb548e8f4cdda6') in 0.039481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.945936 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15f64cf6e265792a0cdb7681faa190c') in 0.006300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.010782 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c437c6df30ac0624075ae29603722b') in 0.006174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.486655 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e148fc8aa56df8ca2caa6227cf9b4736') in 0.008946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.623176 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff06a4f8e41af48a327ec8149a66ec7') in 0.006759 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004389 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Domain Reload Profiling:
-	ReloadAssembly (955ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (333ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3915.
-Total: 2.913500 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.100700 ms MarkObjects: 2.533300 ms  DeleteObjects: 0.035300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 138.888874 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7df76db8e10089f691d34f7fb0afbdb') in 0.040060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.270311 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fbd25e95c2da0e04898bd53584a5f7') in 0.006402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.038302 seconds.
-  path: Assets/SavedObjects/ProjectileBase.prefab
-  artifactKey: Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase.prefab using Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b2512ba5c11e573eb085e60fcd9474') in 0.009556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.640090 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7ad573e07f9723993a16686c2106f') in 0.010638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.360299 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e592fad370a36f5214a453c478387') in 0.020413 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004360 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
-Domain Reload Profiling:
-	ReloadAssembly (968ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3919.
-Total: 3.016400 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.158200 ms MarkObjects: 2.583300 ms  DeleteObjects: 0.032400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 125.762226 seconds.
-  path: Assets/Scripts/ProjectileKill.cs
-  artifactKey: Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileKill.cs using Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29400168e67a99700269bb03bb4bd7f6') in 0.007175 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004381 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Domain Reload Profiling:
-	ReloadAssembly (944ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (334ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3922.
-Total: 2.899000 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.508100 ms  DeleteObjects: 0.014800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 99.748207 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2732e254eaad1158ed8f0167674c7703') in 0.018353 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
-Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (340ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadAttributes (305ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3925.
-Total: 3.281200 ms (FindLiveObjects: 0.278100 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.878500 ms  DeleteObjects: 0.018600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 182.572585 seconds.
-  path: Assets/Scripts/HealthScript.cs
-  artifactKey: Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HealthScript.cs using Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94dd4a24b4a5bd6dbdf641961330000') in 0.007841 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.006859 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (806ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (333ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+System memory in use before: 125.4 MB.
+System memory in use after: 125.6 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3929.
-Total: 2.897900 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.530100 ms  DeleteObjects: 0.015500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004478 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (947ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (330ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3932.
-Total: 3.083900 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.145700 ms MarkObjects: 2.673900 ms  DeleteObjects: 0.014900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 2.915200 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.576200 ms  DeleteObjects: 0.013600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1458,10 +220,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.692826 seconds.
-  path: Assets/Scripts/HealthScript.cs
-  artifactKey: Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HealthScript.cs using Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad7247754f5508a346ff4f141ea3dc') in 0.004677 seconds 
+  Time since last request: 89.528348 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe79a6db778f41f49d715b9b09ef28a3') in 0.072323 seconds 
 ========================================================================
 Received Prepare
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -1469,290 +231,50 @@ Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.004622 seconds.
+Registered in 0.005958 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  1.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (982ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3935.
-Total: 3.031000 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.134400 ms MarkObjects: 2.666400 ms  DeleteObjects: 0.015200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 805.549655 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6281fc2a0caa67560f6d9cd0de452820') in 0.055014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.500707 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49068f2b670f5267f43788c3967fed6b') in 0.008881 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004409 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
-Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3939.
-Total: 3.282400 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.180100 ms MarkObjects: 2.733700 ms  DeleteObjects: 0.039700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 232.056493 seconds.
-  path: Assets/SavedObjects/ProjectileBase.prefab
-  artifactKey: Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase.prefab using Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59adda757c206a1a7725aadc5070906c') in 0.039789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08ab970892a830fc4bcfbd6ecee7de1') in 0.007013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96494b1ba47fa6c660e79eb04ca0e8e2') in 0.014846 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004356 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (947ms)
+	ReloadAssembly (1083ms)
 		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (795ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3943.
-Total: 2.877700 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.477600 ms  DeleteObjects: 0.032200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 30.500041 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a7c17fe9301a1182795d3d1bfe43dc') in 0.041470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.790498 seconds.
-  path: Assets/Models&Textures/Asteroid1.2.prefab
-  artifactKey: Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/Asteroid1.2.prefab using Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59cf6931fa71e5c4d420442314256c4') in 0.021370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.889714 seconds.
-  path: Assets/Scripts/ProjectileControl.cs
-  artifactKey: Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileControl.cs using Guid(830d41651cf48fe4bb453e42f3610da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c8a37043b3a8ae4dff152e7115bb75') in 0.001894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.030722 seconds.
-  path: Assets/Scripts/ProjectileKill.cs
-  artifactKey: Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileKill.cs using Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03202fa9bb2c9804b1b3493ca31f6e0') in 0.001876 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004731 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (808ms)
+		EndReloadAssembly (925ms)
 			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (278ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (317ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.4 MB.
+System memory in use before: 129.1 MB.
+System memory in use after: 129.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3948.
-Total: 3.067100 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.611700 ms  DeleteObjects: 0.033600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 3.634600 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.094700 ms MarkObjects: 3.173100 ms  DeleteObjects: 0.017100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1766,34 +288,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.308714 seconds.
-  path: Assets/Scripts/ProjectileKill.cs
-  artifactKey: Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileKill.cs using Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7d3546cd910df0381a56697849aa2') in 0.004744 seconds 
+  Time since last request: 31.810174 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537ded0f0a52cb3ec87c2c29d6b71db') in 0.057230 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.771730 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed99b226319d7681c28e68819394771a') in 0.066747 seconds 
+  Time since last request: 1.657257 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901c363e1537c8c5feeb8a7a82fa62f2') in 0.015991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.550238 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c7e5d2c262c0e583e114b0acb0fac7') in 0.008427 seconds 
+  Time since last request: 45.544813 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da5e1ed35e25165599f53cae893abb') in 0.013397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.824171 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b8abf54d272e400986bdd94a4f7da8') in 0.006604 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc0f79a4ee019a7320ad4f7f6082f16') in 0.012136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.885445 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c98e6417bc7fd7979e78e91ed7a936') in 0.006255 seconds 
+  Time since last request: 5.393071 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f376f9dec11c28aa2428dc0287ff0f3') in 0.006102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.591495 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c23a3cc49f2313b5f07f68dfc183c5') in 0.006643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.835315 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701625c477682cb133acfe72fe636f96') in 0.005994 seconds 
 ========================================================================
 Received Prepare
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -1801,50 +335,198 @@ Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.004347 seconds.
+Registered in 0.005321 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (977ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3878.
+Total: 3.291800 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.891400 ms  DeleteObjects: 0.048500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.592365 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b8ab2e66a70f648bb788023be109c0') in 0.046088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.386379 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792bc51eba939d672a4581073c1ccd70') in 0.009512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.930353 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b6aff7019efcf5d546b75ed910b20') in 0.019893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.995716 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf0f63e0d967fadc440a254d024ecf9') in 0.019206 seconds 
+========================================================================
+Received Prepare
+Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.007650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (344ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadAttributes (330ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 3.043200 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.690900 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.005193 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.4 MB.
+System memory in use before: 129.2 MB.
+System memory in use after: 129.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3952.
-Total: 3.332000 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.145500 ms MarkObjects: 2.908000 ms  DeleteObjects: 0.032700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3885.
+Total: 3.060200 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.668300 ms  DeleteObjects: 0.014100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1858,40 +540,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.926621 seconds.
-  path: Assets/Scripts/ProjectileKill.cs
-  artifactKey: Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ProjectileKill.cs using Guid(bb46eecd9103d6e468cb02fb21bd717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3e62e7c0e8a953fb9b7a318fe24cdb') in 0.004707 seconds 
+  Time since last request: 101.656508 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462e8120c91865bcd789dfda6bee84a0') in 0.048231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.423272 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689064e304556e1d1d1ef8e7216ba6f1') in 0.035504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/SavedObjects/ProjectileBase.prefab
-  artifactKey: Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase.prefab using Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583c9574e75a415479d6f3da5bf0cbaf') in 0.006006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7638e27fc2444bcc2cfb056eb1d1c25') in 0.005851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.026256 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e89df80bb7b248c395462a4db9d096') in 0.006333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.225576 seconds.
-  path: Assets/Scripts/HealthScript.cs
-  artifactKey: Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HealthScript.cs using Guid(8e3ade8b1d9d43048a598cf73decf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf97d0fbfd3c0986e40f7cc7c34453d') in 0.001947 seconds 
+  Time since last request: 1.995129 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c00c66b66a48ed60bc8b194e3d2714b') in 0.007954 seconds 
 ========================================================================
 Received Prepare
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -1899,29 +557,115 @@ Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.004357 seconds.
+Registered in 0.005484 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
+- Completed reload, in  1.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (959ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 2.912100 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.581300 ms  DeleteObjects: 0.013800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.671499 seconds.
+  path: Assets/SavedObjects/Astroid_1.prefab
+  artifactKey: Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_1.prefab using Guid(20f0e1890365cbe499fe81b5febd462d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041cd18e0e9a596a687e72a30119a274') in 0.044506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.720836 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ee3e9f43e82b7ba46858e41cf2255d') in 0.005885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584405 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63591d2210f1ff2a907aadd39a174bac') in 0.006003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.401454 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbec069d46e7437d77b127025845f3a') in 0.007162 seconds 
+========================================================================
+Received Prepare
+Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.007148 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
 			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
@@ -1930,19 +674,19 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (44ms)
 				ProcessInitializeOnLoadAttributes (288ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.4 MB.
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3956.
-Total: 3.137500 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.134400 ms MarkObjects: 2.709100 ms  DeleteObjects: 0.037600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3893.
+Total: 3.057700 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.714900 ms  DeleteObjects: 0.016100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1955,334 +699,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 66.948205 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a9cbd07caa9dfb70798a5fa7ae6d0') in 0.046138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.375875 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3209e241f1e6db779126301d93fe6c') in 0.008686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983773 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a678b02a3af434ab704c2d6a55b21dc6') in 0.006579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404469 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03721b74f48db12101ade60abc95127b') in 0.006220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.209208 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe34f5f0938708ee17274c331ecd133') in 0.006126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.613564 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292e46adb70ee817e19859e21af572e9') in 0.006509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.053727 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaf928dfca7f74782a1032d39acf3e1') in 0.006197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.636014 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a793b54547af3983d70c70e4fad3fc20') in 0.006032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.794904 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9fa03f8090d6ce9910c4574ffc7d3') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.284994 seconds.
+  path: Assets/SavedObjects/Astroid_2.prefab
+  artifactKey: Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SavedObjects/Astroid_2.prefab using Guid(722dc32c1df9f0c43bc0ea43d088a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5587cfe57fac29234a0cff65cd8b8b03') in 0.010654 seconds 
+========================================================================
 Received Prepare
 Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.004301 seconds.
+Registered in 0.005064 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  1.004 seconds
 Domain Reload Profiling:
-	ReloadAssembly (955ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (803ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (331ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.5 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3959.
-Total: 3.100500 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.719000 ms  DeleteObjects: 0.016700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 160.285568 seconds.
-  path: Assets/Models&Textures/Asteroid1.2.prefab
-  artifactKey: Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/Asteroid1.2.prefab using Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb55b9816304a3ba9efd547dfabb14') in 0.037745 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004397 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Domain Reload Profiling:
-	ReloadAssembly (960ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (340ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.4 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3963.
-Total: 2.935600 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.536800 ms  DeleteObjects: 0.014900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004849 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (803ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (334ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.5 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3966.
-Total: 3.156100 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.128800 ms MarkObjects: 2.765600 ms  DeleteObjects: 0.014500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 269.531669 seconds.
-  path: Assets/SavedObjects/Laser.prefab
-  artifactKey: Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Laser.prefab using Guid(8acfca318f679bd4593e6370426330cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2280e89fedf65dd2b9f578068d0a57') in 0.042656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/SavedObjects/ProjectileBase.prefab
-  artifactKey: Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase.prefab using Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5790d4061bf5c178fe9dc313878fba07') in 0.008972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c063742a3fffd9545a62cd99724d1e') in 0.006337 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004395 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Domain Reload Profiling:
-	ReloadAssembly (945ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (330ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3970.
-Total: 3.208600 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.818000 ms  DeleteObjects: 0.037000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12.764113 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351f1e14cc021701f1a600be30463193') in 0.038408 seconds 
-========================================================================
-Received Prepare
-Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.004530 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
-Domain Reload Profiling:
-	ReloadAssembly (918ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.3 MB.
-System memory in use after: 131.5 MB.
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3974.
-Total: 3.229800 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.146400 ms MarkObjects: 2.817700 ms  DeleteObjects: 0.031100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3897.
+Total: 3.026000 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.665000 ms  DeleteObjects: 0.019200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/Models&Textures/Wormhole.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.005405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 2.967500 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.621900 ms  DeleteObjects: 0.014300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

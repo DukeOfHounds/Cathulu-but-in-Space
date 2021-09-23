@@ -7,9 +7,12 @@ public class AsteroidGenerator : MonoBehaviour
     public float spawnRange;
     public float amountToSpawn;
     private Vector3 spawnPoint;
-    public GameObject asteroid;
+    public GameObject asteroidOne;
+    public GameObject asteroidTwo;
     public float startSafeRange;
     private List<GameObject> objectsToPlace = new List<GameObject>();
+    
+    private bool onoff = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +26,29 @@ public class AsteroidGenerator : MonoBehaviour
             {
                 PickSpawnPoint();
             }
+            onoff = !onoff; // toggles onoff
 
-            objectsToPlace.Add(Instantiate(asteroid, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
-            objectsToPlace[i].transform.parent = this.transform;
+            if (onoff)
+            {
+                objectsToPlace.Add(Instantiate(asteroidOne, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
+                objectsToPlace[i].transform.parent = this.transform;
+            }
+            else
+            {
+                objectsToPlace.Add(Instantiate(asteroidTwo, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
+                objectsToPlace[i].transform.parent = this.transform;
+            }
+
         }
 
-        asteroid.SetActive(false);
+        if (onoff)
+        {
+            asteroidOne.SetActive(false);
+        }
+        else
+        {
+            asteroidTwo.SetActive(false);
+        }
     }
 
     public void PickSpawnPoint()

@@ -63,8 +63,8 @@
     <Compile Include="Assets\Scripts\AsteroidGenerator.cs" />
     <Compile Include="Assets\Scripts\Spaceship.cs" />
     <Compile Include="Assets\Scripts\ProjectileKill.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\HealthScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Models&amp;Textures\Materials\DeepSpaceSkyboxPack\GalaxyFire\Galaxy Fire Skybox Readme.txt" />
