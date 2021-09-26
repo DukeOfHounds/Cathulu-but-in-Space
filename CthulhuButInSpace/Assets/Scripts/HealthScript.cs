@@ -8,6 +8,7 @@ namespace HealthAndDamage
     {
 
         public int health = 1;
+        public GameObject FracturedMesh;
 
         // Start is called before the first frame update
         public void takeDamage(int damage)
@@ -15,6 +16,7 @@ namespace HealthAndDamage
             health -= damage;
             if (health <= 0)
             {
+                Instantiate(FracturedMesh, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }

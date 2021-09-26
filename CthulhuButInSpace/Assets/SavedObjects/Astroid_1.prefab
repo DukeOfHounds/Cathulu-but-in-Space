@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 25
+  FracturedMesh: {fileID: 3482142489052234466, guid: 950b10fd1c8f30541937fe3e8950a7f8, type: 3}
 --- !u!54 &2087263544477453847
 Rigidbody:
   m_ObjectHideFlags: 0
