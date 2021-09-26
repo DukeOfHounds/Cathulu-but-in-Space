@@ -65,11 +65,17 @@
     <Compile Include="Assets\Scripts\ProjectileKill.cs" />
     <Compile Include="Assets\Scripts\HealthScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\Models&amp;Textures\Materials\DeepSpaceSkyboxPack\GalaxyFire\Galaxy Fire Skybox Readme.txt" />
+    <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\Models&amp;Textures\Materials\DeepSpaceSkyboxPack\DiverseSpace\Diverse Space Skybox Readme.txt" />
     <None Include="Assets\Models&amp;Textures\Materials\DeepSpaceSkyboxPack\GalacticGreen\Galactic Green Skybox Readme.txt" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

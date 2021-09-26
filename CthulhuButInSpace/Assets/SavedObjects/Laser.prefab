@@ -4942,6 +4942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 8161380403519514120}
   timeToKill: 2
+  killParticle: {fileID: 1947871717301538, guid: 22b6b7a64171e924bb8fb6d07fdcd3ae, type: 3}
   Damage: 2
 --- !u!1 &9208571572120985374
 GameObject:
