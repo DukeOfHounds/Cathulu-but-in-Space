@@ -7,18 +7,36 @@ namespace HealthAndDamage
     public class HealthScript : MonoBehaviour
     {
 
-        public int health = 1;
+        public float health = 1;
         public GameObject FracturedMesh;
 
         // Start is called before the first frame update
-        public void takeDamage(int damage)
+        public void takeDamage(float damage)
         {
             health -= damage;
             if (health <= 0)
             {
-                Instantiate(FracturedMesh, transform.position, transform.rotation);
-                Destroy(gameObject);
+                if (gameObject.tag == "Asteroid")
+                {
+                    Debug.Log("Boom");
+                    Instantiate(FracturedMesh, transform.position, transform.rotation);
+                    Destroy(gameObject);
+
+                }
+                else if(gameObject.tag == "Scrap")
+                {
+                    Destroy(gameObject);
+                }
+                else if(gameObject.tag == "Jewel")
+                {
+                    Destroy(gameObject);
+                }
+                else if(gameObject.tag == "Player")
+                {
+                    // not finished
+                }
             }
         }
+        
     }
 }

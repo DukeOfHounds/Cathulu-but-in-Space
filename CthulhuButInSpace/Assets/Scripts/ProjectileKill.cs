@@ -9,27 +9,33 @@ namespace HealthAndDamage
         public GameObject projectile;
         public float timeToKill = 2;
         public GameObject killParticle;
-        public int Damage = 2;
+        public float damage = 2;
 
         // Update is called once per frame
         void Update()
         {
             Destroy(projectile, timeToKill);
+           // Destroy(killParticle, timeToKill);
+
         }
 
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.tag == "Asteroid")
+            if (projectile.gameObject.tag != "Particle")
             {
-                Instantiate(killParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
-                collision.gameObject.GetComponent<HealthScript>().takeDamage(Damage);         
-                if (projectile.gameObject.tag == "Missile")
+                if (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel")
                 {
-                    Destroy(projectile);
-                }
+                    Instantiate(killParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
+                    collision.gameObject.GetComponent<HealthScript>().takeDamage(damage);
+                    if (projectile.gameObject.tag == "Missile")
+                    {
+                        Destroy(projectile);
+                    }
 
+                }
             }
         }
+
     }
 }

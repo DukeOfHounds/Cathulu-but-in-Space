@@ -376,7 +376,7 @@
                 {
                     "name": "",
                     "id": "065c35b7-a1f7-4b12-8295-71d96bc58844",
-                    "path": "<Mouse>/middleButton",
+                    "path": "<Keyboard>/alt",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -431,7 +431,7 @@
                 {
                     "name": "",
                     "id": "56ba1b3f-3f20-46cd-8e69-a17764a8590f",
-                    "path": "<Keyboard>/alt",
+                    "path": "<Mouse>/middleButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

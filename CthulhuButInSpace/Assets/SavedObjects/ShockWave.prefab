@@ -4879,7 +4879,7 @@ GameObject:
   - component: {fileID: 7700233450293513815}
   m_Layer: 3
   m_Name: ShockWave
-  m_TagString: Untagged
+  m_TagString: ShockWave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4942,7 +4942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 8161380403519514120}
   timeToKill: 0.2
-  Damage: 0
+  killParticle: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
+  damage: 2
 --- !u!1 &9208571572120985374
 GameObject:
   m_ObjectHideFlags: 0

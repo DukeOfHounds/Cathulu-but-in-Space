@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8082437770481586188}
   m_Layer: 3
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4941,9 +4941,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 8161380403519514120}
-  timeToKill: 2
+  timeToKill: 3
   killParticle: {fileID: 1947871717301538, guid: 22b6b7a64171e924bb8fb6d07fdcd3ae, type: 3}
-  Damage: 2
+  damage: 3
 --- !u!1 &9208571572120985374
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,7 +4956,7 @@ GameObject:
   - component: {fileID: 2496664496266863748}
   m_Layer: 3
   m_Name: Trail
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3,68 +3,72 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+
+namespace HealthAndDamage
 {
-    [Header("=== Menue Toggles ===")]
-    [SerializeField]
-    private bool gameOver = false; // should the gameOver screen show bool
-
-    [Header("=== Menue Toggles ===")]
-    [SerializeField]
-    private float timeDelay = 2f;// pause in time before a UI is displayed
-
-    public GameObject gameOverUI;// game over UI
-
-    private void Update()// for testing purposes. 
+    public class GameManager : MonoBehaviour
     {
-        if (gameOver == true)
-        {
-            DisplayGameOver();
-        }
-        if (gameOver == false)
-        {
+        [Header("=== Menue Toggles ===")]
+        [SerializeField]
+        private bool gameOver = false; // should the gameOver screen show bool
 
+        [Header("=== Menue Toggles ===")]
+        [SerializeField]
+        private float timeDelay = 2f;// pause in time before a UI is displayed
+
+        public GameObject gameOverUI;// game over UI
+
+        private void Update()// for testing purposes. 
+        {
+            if (gameOver == true)
+            {
+                DisplayGameOver();
+            }
+            if (gameOver == false)
+            {
+
+                CloseGameOver();
+
+            }
+
+        }
+        public void GameOver()// public method displaying UI that can be referenced by classes
+        {
+            if (gameOver == false)
+            {
+                gameOver = true;
+                Invoke("DisplayGameOver", timeDelay); //Opens UI
+
+            }
+
+        }
+        public void GameNotOver()// public method Closing UI that can be referenced by classes
+        {
+            if (gameOver == true)
+            {
+                gameOver = false;
+                Invoke("CloseGameOver", timeDelay); // closes UI
+
+            }
+
+        }
+        private void DisplayGameOver()// sets Game Over screen to visible 
+        {
+            Cursor.visible = true;
+            gameOverUI.SetActive(true);
+
+        }
+        private void CloseGameOver()// sets Game Over screen to visible 
+        {
+            Cursor.visible = false;
+            gameOverUI.SetActive(false);
+
+        }
+        public void Restart()// Reloads current Scene
+        {
             CloseGameOver();
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reloads current Scene
         }
 
     }
-    public void GameOver()// public method displaying UI that can be referenced by classes
-    {
-        if (gameOver == false)
-        {
-            gameOver = true;
-            Invoke("DisplayGameOver", timeDelay); //Opens UI
-
-        }
-        
-    }
-    public void GameNotOver()// public method Closing UI that can be referenced by classes
-    {
-        if (gameOver == true)
-        {
-            gameOver = false;
-            Invoke("CloseGameOver", timeDelay); // closes UI
-
-        }
-
-    }
-    private void DisplayGameOver()// sets Game Over screen to visible 
-    {
-        Cursor.visible = true;
-        gameOverUI.SetActive(true);
-        
-    }
-    private void CloseGameOver()// sets Game Over screen to visible 
-    {
-        Cursor.visible = false;
-        gameOverUI.SetActive(false);
-
-    }
-    public void Restart()// Reloads current Scene
-    {
-        CloseGameOver();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reloads current Scene
-    }
-    
 }
