@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class JewelDoorSystem : MonoBehaviour
 {
-    //array of jewels
-
+    private List<GameObject> jewelList = new List<GameObject>();
+    private GameObject[] jewels;
 
 
 
@@ -13,6 +13,11 @@ public class JewelDoorSystem : MonoBehaviour
     void Start()
     {
         //add jewels to array
+       jewels = GameObject.FindGameObjectsWithTag("Jewel");
+        foreach (GameObject i in jewels)
+        {
+            jewelList.Add(i);
+        }
     }
 
     // Update is called once per frame

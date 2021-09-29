@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KillFragments : MonoBehaviour
 {
+    public float minTime = 10.0f;
+    public float maxTime = 30.0f;
     private float killTimer = 0.0f;
     IEnumerator KillFragment()
     {
@@ -14,7 +16,7 @@ public class KillFragments : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        killTimer = Random.Range(10.0f, 30.0f);
+        killTimer = Random.Range(minTime, maxTime);
         StartCoroutine(KillFragment());
     }
 
