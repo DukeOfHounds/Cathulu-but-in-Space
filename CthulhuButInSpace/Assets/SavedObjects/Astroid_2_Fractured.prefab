@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6739637071749735699}
   - component: {fileID: 2148717568969015316}
   - component: {fileID: 6139511303787490004}
+  - component: {fileID: 3684848799749233457}
   m_Layer: 0
   m_Name: Sphere_1_cell.001
   m_TagString: Scrap
@@ -127,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &6139511303787490004
 MonoBehaviour:
@@ -139,6 +140,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3684848799749233457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311012053136170103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &331935985199737643
@@ -156,6 +169,7 @@ GameObject:
   - component: {fileID: 2132293574780196314}
   - component: {fileID: 2839097219081986410}
   - component: {fileID: 174230565121679845}
+  - component: {fileID: 65642189362117304}
   m_Layer: 0
   m_Name: Sphere_1_cell.006
   m_TagString: Scrap
@@ -268,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &174230565121679845
 MonoBehaviour:
@@ -280,6 +294,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &65642189362117304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331935985199737643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &514309439011340482
@@ -297,6 +323,7 @@ GameObject:
   - component: {fileID: 9165633241037114994}
   - component: {fileID: 374929628107936941}
   - component: {fileID: 2418505643636682693}
+  - component: {fileID: 1821448879536366740}
   m_Layer: 0
   m_Name: Sphere_1_cell.016
   m_TagString: Scrap
@@ -409,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &2418505643636682693
 MonoBehaviour:
@@ -421,6 +448,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1821448879536366740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514309439011340482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &641719108966859979
@@ -438,6 +477,7 @@ GameObject:
   - component: {fileID: 594489932109641830}
   - component: {fileID: 3535138962990650450}
   - component: {fileID: 5724899865055082202}
+  - component: {fileID: 8903236478460801876}
   m_Layer: 0
   m_Name: Sphere_1_cell.008
   m_TagString: Scrap
@@ -550,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &5724899865055082202
 MonoBehaviour:
@@ -562,6 +602,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8903236478460801876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641719108966859979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &677558378081410037
@@ -579,6 +631,7 @@ GameObject:
   - component: {fileID: 4730697778456629915}
   - component: {fileID: 5544839580043325611}
   - component: {fileID: 5788646820558479603}
+  - component: {fileID: 3306936904902414882}
   m_Layer: 0
   m_Name: Sphere_1_cell.003
   m_TagString: Scrap
@@ -691,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &5788646820558479603
 MonoBehaviour:
@@ -703,6 +756,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3306936904902414882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677558378081410037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &872916043065976308
@@ -720,6 +785,7 @@ GameObject:
   - component: {fileID: 8461738984314902603}
   - component: {fileID: 5889534220543839504}
   - component: {fileID: 8938012024575380095}
+  - component: {fileID: 4958469594428696994}
   m_Layer: 0
   m_Name: Sphere_1_cell.023
   m_TagString: Scrap
@@ -832,7 +898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &8938012024575380095
 MonoBehaviour:
@@ -844,6 +910,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4958469594428696994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872916043065976308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1301142420484207544
@@ -861,6 +939,7 @@ GameObject:
   - component: {fileID: 7922522567592521093}
   - component: {fileID: 3125101801417939371}
   - component: {fileID: 4759008255429123045}
+  - component: {fileID: 1130946858856082111}
   m_Layer: 0
   m_Name: Sphere_1_cell.024
   m_TagString: Scrap
@@ -973,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &4759008255429123045
 MonoBehaviour:
@@ -985,6 +1064,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1130946858856082111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301142420484207544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2224230128910049031
@@ -1002,6 +1093,7 @@ GameObject:
   - component: {fileID: 4537705597345507736}
   - component: {fileID: 8942013096412239888}
   - component: {fileID: 5869589145968639951}
+  - component: {fileID: 6700761836383339786}
   m_Layer: 0
   m_Name: Sphere_1_cell.009
   m_TagString: Scrap
@@ -1114,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &5869589145968639951
 MonoBehaviour:
@@ -1126,6 +1218,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6700761836383339786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2224230128910049031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2382262628745806305
@@ -1143,6 +1247,7 @@ GameObject:
   - component: {fileID: 2046384061350361859}
   - component: {fileID: 5884827415415040004}
   - component: {fileID: 4582544380713086893}
+  - component: {fileID: 8712045127977673409}
   m_Layer: 0
   m_Name: Sphere_1_cell.021
   m_TagString: Scrap
@@ -1255,7 +1360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &4582544380713086893
 MonoBehaviour:
@@ -1267,6 +1372,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8712045127977673409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2382262628745806305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2951356401592219744
@@ -1284,6 +1401,7 @@ GameObject:
   - component: {fileID: 3258113616113981274}
   - component: {fileID: 8284903140218521449}
   - component: {fileID: 6270301150369836178}
+  - component: {fileID: 4426086411051471084}
   m_Layer: 0
   m_Name: Sphere_1_cell.004
   m_TagString: Scrap
@@ -1396,7 +1514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &6270301150369836178
 MonoBehaviour:
@@ -1408,6 +1526,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4426086411051471084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2951356401592219744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3810944636589784226
@@ -1425,6 +1555,7 @@ GameObject:
   - component: {fileID: 77974138320598529}
   - component: {fileID: 8224806074476285906}
   - component: {fileID: 8676054042285760676}
+  - component: {fileID: 1287355466472261248}
   m_Layer: 0
   m_Name: Sphere_1_cell
   m_TagString: Scrap
@@ -1537,7 +1668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &8676054042285760676
 MonoBehaviour:
@@ -1549,6 +1680,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1287355466472261248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810944636589784226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3977901021615898288
@@ -1566,6 +1709,7 @@ GameObject:
   - component: {fileID: 4175154181859499465}
   - component: {fileID: 5768010231662141934}
   - component: {fileID: 745056982666996776}
+  - component: {fileID: 6093813941100295612}
   m_Layer: 0
   m_Name: Sphere_1_cell.020
   m_TagString: Scrap
@@ -1678,7 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &745056982666996776
 MonoBehaviour:
@@ -1690,6 +1834,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6093813941100295612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977901021615898288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4137438294073984722
@@ -1707,6 +1863,7 @@ GameObject:
   - component: {fileID: 4746455452938418130}
   - component: {fileID: 5513285051313468439}
   - component: {fileID: 7933674902561989703}
+  - component: {fileID: 195889479922683363}
   m_Layer: 0
   m_Name: Sphere_1_cell.007
   m_TagString: Scrap
@@ -1819,7 +1976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &7933674902561989703
 MonoBehaviour:
@@ -1831,6 +1988,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &195889479922683363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137438294073984722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4696321968704317203
@@ -1898,6 +2067,7 @@ GameObject:
   - component: {fileID: 6547805995704189882}
   - component: {fileID: 648227854727897925}
   - component: {fileID: 2683211106631792280}
+  - component: {fileID: 2558234682921625367}
   m_Layer: 0
   m_Name: Sphere_1_cell.015
   m_TagString: Scrap
@@ -2010,7 +2180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &2683211106631792280
 MonoBehaviour:
@@ -2022,6 +2192,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2558234682921625367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5391718312440182884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6117560673894763784
@@ -2039,6 +2221,7 @@ GameObject:
   - component: {fileID: 1876368516146164516}
   - component: {fileID: 6684022261512627634}
   - component: {fileID: 467772168190610308}
+  - component: {fileID: 7537440098036724655}
   m_Layer: 0
   m_Name: Sphere_1_cell.022
   m_TagString: Scrap
@@ -2151,7 +2334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &467772168190610308
 MonoBehaviour:
@@ -2163,6 +2346,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7537440098036724655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6117560673894763784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7103910250107959005
@@ -2180,6 +2375,7 @@ GameObject:
   - component: {fileID: 2893030617633314921}
   - component: {fileID: 6636994764559944863}
   - component: {fileID: 8120924082368001685}
+  - component: {fileID: 2849995621480772627}
   m_Layer: 0
   m_Name: Sphere_1_cell.018
   m_TagString: Scrap
@@ -2292,7 +2488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &8120924082368001685
 MonoBehaviour:
@@ -2304,6 +2500,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2849995621480772627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103910250107959005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7497386915743184652
@@ -2321,6 +2529,7 @@ GameObject:
   - component: {fileID: 8734477829251202502}
   - component: {fileID: 576295549429136598}
   - component: {fileID: 1020286485761020638}
+  - component: {fileID: 6389671293968898658}
   m_Layer: 0
   m_Name: Sphere_1_cell.011
   m_TagString: Scrap
@@ -2433,7 +2642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &1020286485761020638
 MonoBehaviour:
@@ -2445,6 +2654,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6389671293968898658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7497386915743184652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7611415037638771125
@@ -2462,6 +2683,7 @@ GameObject:
   - component: {fileID: 1580015774283168847}
   - component: {fileID: 7830059772740329135}
   - component: {fileID: 5714322897029762419}
+  - component: {fileID: 4052908688317438549}
   m_Layer: 0
   m_Name: Sphere_1_cell.014
   m_TagString: Scrap
@@ -2574,7 +2796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &5714322897029762419
 MonoBehaviour:
@@ -2586,6 +2808,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4052908688317438549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611415037638771125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7668183114076017762
@@ -2603,6 +2837,7 @@ GameObject:
   - component: {fileID: 2378797051134400033}
   - component: {fileID: 7694831298778393302}
   - component: {fileID: 4978339409074110393}
+  - component: {fileID: 8847742926024680873}
   m_Layer: 0
   m_Name: Sphere_1_cell.005
   m_TagString: Scrap
@@ -2715,7 +2950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &4978339409074110393
 MonoBehaviour:
@@ -2727,6 +2962,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8847742926024680873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668183114076017762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7999607498681413764
@@ -2744,6 +2991,7 @@ GameObject:
   - component: {fileID: 26450600456735060}
   - component: {fileID: 736294404274771154}
   - component: {fileID: 5055653218821130844}
+  - component: {fileID: 3410285304640054111}
   m_Layer: 0
   m_Name: Sphere_1_cell.013
   m_TagString: Scrap
@@ -2856,7 +3104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e3ade8b1d9d43048a598cf73decf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 6
   FracturedMesh: {fileID: 4696321968704317203}
 --- !u!114 &5055653218821130844
 MonoBehaviour:
@@ -2868,5 +3116,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3410285304640054111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999607498681413764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432321a43df2ab9449cd7847ddcca0e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

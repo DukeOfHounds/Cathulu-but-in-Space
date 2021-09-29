@@ -10,6 +10,8 @@ namespace HealthAndDamage
 
         public Camera cam;
         public Rigidbody spaceship;
+        public Spaceship spaceshipRef;
+        private bool boosting;
 
         private bool weaponHolstered = true;
         private float weaponHolserCD = 0.0f;
@@ -19,6 +21,8 @@ namespace HealthAndDamage
         public Animator laserR;
         public ParticleSystem laserLParticle;
         public ParticleSystem laserRParticle;
+        public ParticleSystem missileLParticle;
+        public ParticleSystem missileRParticle;
 
         public Animator missileL;
         public Animator missileR;
@@ -119,7 +123,10 @@ namespace HealthAndDamage
 
             InstantiateProjectile(missileLaunchPoint1, missile, missileSpeed);
             InstantiateProjectile(missileLaunchPoint2, missile, missileSpeed);
-            
+
+            missileLParticle.Play();
+            missileRParticle.Play();
+
         }
 
 
@@ -158,10 +165,19 @@ namespace HealthAndDamage
 
         }
 
-
-
         void Update()
         {
+            boosting = spaceshipRef.boosting;
+           
+            if (boosting)
+            {
+                weaponHolstered = true;
+                laserL.SetBool("inCombat", false);
+                laserR.SetBool("inCombat", false);
+                missileL.SetBool("inCombat", false);
+                missileR.SetBool("inCombat", false);
+            }
+            
             if (weaponHolserCD > 0.0f)
             {
                 weaponHolserCD = Mathf.Clamp(weaponHolserCD - Time.deltaTime, 0.0f, weaponHolsterTimer);
@@ -180,29 +196,33 @@ namespace HealthAndDamage
         #region Input Methods
         public void OnLaunchLaser(InputAction.CallbackContext context)
         {
-            
-            if (isFiring == false)
+            if (boosting == false)
             {
-                StartCoroutine(LaunchCheckLaser());
+                if (isFiring == false)
+                {
+                    StartCoroutine(LaunchCheckLaser());
+                }
             }
-
         }
         public void OnLaunchMissile(InputAction.CallbackContext context)
         {
-
-            if (isFiring == false)
+            if (boosting == false)
             {
-                StartCoroutine(LaunchCheckMissile());
+                if (isFiring == false)
+                {
+                    StartCoroutine(LaunchCheckMissile());
+                }
             }
-
         }
         public void OnLaunchShockWave(InputAction.CallbackContext context)
         {
-            if (isFiring == false)
+            if (boosting == false)
             {
-                StartCoroutine(LaunchCheckShockWave());
+                if (isFiring == false)
+                {
+                    StartCoroutine(LaunchCheckShockWave());
+                }
             }
-
         }
         #endregion
 
