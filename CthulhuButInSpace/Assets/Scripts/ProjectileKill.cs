@@ -24,10 +24,11 @@ namespace HealthAndDamage
         {
             if (projectile.gameObject.tag != "Particle")
             {
-                if (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel")
+               if (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel" || collision.gameObject.tag == "Shield")
+              // if (collision.gameObject.tag != "Player" || collision.gameObject.tag != "Player" || collision.gameObject.tag != "Player")
                 {
-                    Instantiate(killParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
-                    collision.gameObject.GetComponent<HealthScript>().takeDamage(damage);
+                    Instantiate(killParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);// explosion effect
+                    collision.gameObject.GetComponent<HealthScript>().takeDamage(damage); // has collided object take damage
                     if (projectile.gameObject.tag == "Missile")
                     {
                         Destroy(projectile);

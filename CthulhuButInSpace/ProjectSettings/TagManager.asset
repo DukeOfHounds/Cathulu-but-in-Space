@@ -11,6 +11,8 @@ TagManager:
   - Scrap
   - ShockWave
   - Jewel
+  - Shield
+  - Wormhole
   layers:
   - Default
   - TransparentFX
