@@ -330,6 +330,7 @@
 "Assets/Scripts/Collisions.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealthScript.cs"
+"Assets/Scripts/InvisibleWall.cs"
 "Assets/Scripts/JewelDoorSystem.cs"
 "Assets/Scripts/KillFragments.cs"
 "Assets/Scripts/PlayerManager.cs"
