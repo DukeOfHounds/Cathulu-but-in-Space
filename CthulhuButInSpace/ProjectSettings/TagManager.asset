@@ -13,6 +13,7 @@ TagManager:
   - Jewel
   - Shield
   - Wormhole
+  - Boss
   layers:
   - Default
   - TransparentFX

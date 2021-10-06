@@ -47,10 +47,12 @@ namespace HealthAndDamage
 
         private List<GameObject> ProjectilesFired = new List<GameObject>();
         private Vector3 destination;
-        private bool isFiring;
+        private bool isFiringLaser;
+        private bool isFiringMissile;
+        private bool isFiringShockwave;
 
-        
-     
+
+
 
         public void FireLaser()
         {
@@ -139,29 +141,29 @@ namespace HealthAndDamage
 
         IEnumerator LaunchCheckLaser()
         {
-            isFiring = true;
+            isFiringLaser = true;
             FireLaser();
             yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            isFiringLaser = false;
             laserL.SetBool("Fire", false);
             laserR.SetBool("Fire", false);
         }
         IEnumerator LaunchCheckMissile()
         {
-            isFiring = true;
+            isFiringMissile = true;
             FireMissile();
-            yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            yield return new WaitForSeconds(.5f);
+            isFiringMissile = false;
             missileL.SetBool("Fire", false);
             missileR.SetBool("Fire", false);
 
         }
         IEnumerator LaunchCheckShockWave()
         {
-            isFiring = true;
+            isFiringShockwave = true;
             FireShockWave();
-            yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            yield return new WaitForSeconds(1.0f);
+            isFiringShockwave = false;
 
         }
 
@@ -198,7 +200,7 @@ namespace HealthAndDamage
         {
             if (boosting == false)
             {
-                if (isFiring == false)
+                if (isFiringLaser == false)
                 {
                     StartCoroutine(LaunchCheckLaser());
                 }
@@ -208,7 +210,7 @@ namespace HealthAndDamage
         {
             if (boosting == false)
             {
-                if (isFiring == false)
+                if (isFiringMissile == false)
                 {
                     StartCoroutine(LaunchCheckMissile());
                 }
@@ -218,7 +220,7 @@ namespace HealthAndDamage
         {
             if (boosting == false)
             {
-                if (isFiring == false)
+                if (isFiringShockwave == false)
                 {
                     StartCoroutine(LaunchCheckShockWave());
                 }

@@ -156,6 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &331935985199737643
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &514309439011340482
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &641719108966859979
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &677558378081410037
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &872916043065976308
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &1301142420484207544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &2224230128910049031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,6 +1255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &2382262628745806305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,6 +1412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &2951356401592219744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &3810944636589784226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &3977901021615898288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +1883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &4137438294073984722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,6 +2040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &4696321968704317203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 28
   maxTime: 50
+  isMaster: 1
 --- !u!1 &5391718312440182884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,6 +2263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &6117560673894763784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,6 +2420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &7103910250107959005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,6 +2577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &7497386915743184652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &7611415037638771125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,6 +2891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &7668183114076017762
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,6 +3048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0
 --- !u!1 &7999607498681413764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3185,3 +3205,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minTime: 10
   maxTime: 30
+  isMaster: 0

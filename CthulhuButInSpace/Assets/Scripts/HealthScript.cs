@@ -85,6 +85,9 @@ namespace HealthAndDamage
                     case "Shield":
                         changePower();
                         break;
+                    case "Boss":
+                        // unfinished();
+                        break;
                 }
             }
         }
