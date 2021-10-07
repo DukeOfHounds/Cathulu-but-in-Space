@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 namespace HealthAndDamage
 {
@@ -25,10 +26,12 @@ namespace HealthAndDamage
         {
              if(startOfGame == false) 
             { 
-            float damage;
+                float damage;
+                float velocity;
                 if ((gameObject.tag == "Asteroid" || gameObject.tag == "Scrap" + collision.gameObject.tag || gameObject.tag == "Jewel") && (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel"))
                 {
-                    damage = gameObject.GetComponent<Rigidbody>().mass;
+                    
+                    damage = gameObject.GetComponent<Rigidbody>().mass * (gameObject.GetComponent<Rigidbody>().velocity.magnitude + collision.gameObject.GetComponent<Rigidbody>().velocity.magnitude);
                     collision.gameObject.GetComponent<HealthScript>().takeDamage(damage);
                     damage = collision.gameObject.GetComponent<Rigidbody>().mass;
                     gameObject.GetComponent<HealthScript>().takeDamage(damage);

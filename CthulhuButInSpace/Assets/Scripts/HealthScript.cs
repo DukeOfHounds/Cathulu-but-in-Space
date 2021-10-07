@@ -12,45 +12,53 @@ namespace HealthAndDamage
         private float maxHealth;
         private float shieldCD = 0f;
         private float shieldTimer = 3f;
-        private float healthRechargeRate = .01f;
+        private float healthRechargeRate = .05f;
 
         private MeshRenderer mr;
         private SphereCollider sc;
-
         public GameObject FracturedMesh;
-
-
-
+        private GameObject player;
+        private bool gameOver = false;
+        private GameObject gameManager;
         private void Start()
         {
             string tag = gameObject.tag;
             maxHealth = health; // keeps track of max health
-       
-
+            player = PlayerManager.instance.player;
+            gameManager = GameObject.Find("GameManager");
         }
         private void Update()
         {
-            string tag = gameObject.tag;
-            if (tag == "Shield" && health < maxHealth) // shield dependent regeneration
-            {
 
-                if (shieldCD > 0.0f) // if shield damage cooldown is  not over
+            if (gameOver == false) {
+                string tag = gameObject.tag;
+                if ((tag == "Shield" || tag == "Player") && health < maxHealth) // shield dependent regeneration
                 {
-                    shieldCD = Mathf.Clamp(shieldCD - Time.deltaTime, 0.0f, shieldTimer); // countdown shield delay
-                }
-                else
-                {
-                    if ( health <= 0) // if shield is destryed
+
+                    if (shieldCD > 0.0f) // if shield damage cooldown is  not over
                     {
-                        health = 0;// resets negative health value
-                        changePower();
-
+                        shieldCD = Mathf.Clamp(shieldCD - Time.deltaTime, 0.0f, shieldTimer); // countdown shield delay
                     }
-                    health += healthRechargeRate;// recharge shield
+                    else
+                    {
+                        if (health <= 0) // if shield is destryed
+                        {
+                        
+                                health = 0;// resets negative health value
+                                changePower();
+                          
+                        }
+                        health += healthRechargeRate;// recharge shield
+                    }
+                    if (tag == "Player" && health <= 0)
+                    {
+                        gameManager.GetComponent<GameManager>().GameOver();
+                        gameOver = true;
+                    }
                 }
             }
-
         }
+        
 
          private void changePower()
         {

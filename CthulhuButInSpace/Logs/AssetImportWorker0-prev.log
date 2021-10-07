@@ -1,125 +1,125 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.1.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
+C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53149
-Successfully changed project path to: C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
-C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace
+55011
+Successfully changed project path to: C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
+C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/DukeOfHounds/Desktop/Cathulu-but-in-Space/CthulhuButInSpace/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/New Account/Desktop/CBIS/CthulhuButInSpace/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
-    Driver:   30.0.14.7212
+    VRAM:     8079 MB
+    Driver:   30.0.14.7196
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Mono path[0] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001472 seconds.
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001883 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
+- Completed reload, in  1.060 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (386ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004625 seconds.
+Registered in 0.005261 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  1.193 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1128ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (954ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (453ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (299ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (302ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.4 MB.
-System memory in use after: 200.6 MB.
+System memory in use before: 200.5 MB.
+System memory in use after: 200.7 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3878.
-Total: 2.955100 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.553500 ms  DeleteObjects: 0.057100 ms)
+Total: 3.170200 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.751200 ms  DeleteObjects: 0.085800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,150 +135,488 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/PlayerControls.inputactions
   artifactKey: Guid(b71c555dbc26c234c91ce5d0ef3766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.inputactions using Guid(b71c555dbc26c234c91ce5d0ef3766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7fbc60132cce333b627eecb61e8f77') in 0.030606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 239.662476 seconds.
-  path: Assets/Models&Textures/AstroidTextures/Asteroid_text.png
-  artifactKey: Guid(c90a65f0a770b854aa587f9e51db3722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/Asteroid_text.png using Guid(c90a65f0a770b854aa587f9e51db3722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc7441ea2fc98556a8f65d82ec22893') in 0.065493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Models&Textures/AstroidTextures/Asteroid_text_Normal_map.png
-  artifactKey: Guid(b80bb1d90e6b91e48acb3feede426656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/Asteroid_text_Normal_map.png using Guid(b80bb1d90e6b91e48acb3feede426656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709383805373c1e52913284f79aa95b0') in 0.035267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_Normal.png
-  artifactKey: Guid(23cdf11a6b924e941985818381268897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_Normal.png using Guid(23cdf11a6b924e941985818381268897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9689d8f4d24c166bf2ca3e4581c143') in 0.023845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_MetallicSmoothness.png
-  artifactKey: Guid(054980887e201124995e5cf8e8cf42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_MetallicSmoothness.png using Guid(054980887e201124995e5cf8e8cf42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd407a78b0cece1fef5ce42263f0b4cbc') in 0.014485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_AlbedoTransparency.png
-  artifactKey: Guid(ae3685239bc0dc2458d5dc1c4d5c7f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/Hollow_astroid (2)_Mat_AlbedoTransparency.png using Guid(ae3685239bc0dc2458d5dc1c4d5c7f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a9d7b28ec701b238927a7ed0cf011e') in 0.012175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Models&Textures/AstroidTextures/M_HAstroid.mat
-  artifactKey: Guid(fde17560c18979c43bc01bd8a83412c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models&Textures/AstroidTextures/M_HAstroid.mat using Guid(fde17560c18979c43bc01bd8a83412c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5051c539a2c1c146ce341d32a98a3ac6') in 0.044041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.153879 seconds.
-  path: Assets/SavedObjects/Astroid_1_Fractured.prefab
-  artifactKey: Guid(950b10fd1c8f30541937fe3e8950a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Astroid_1_Fractured.prefab using Guid(950b10fd1c8f30541937fe3e8950a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3e892ce2a5aa33e3b54695519eedf1') in 0.045657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/SavedObjects/Scrap_1.prefab
-  artifactKey: Guid(30a1dd811470107489dffd3fdc2d78b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Scrap_1.prefab using Guid(30a1dd811470107489dffd3fdc2d78b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d96ed630040d9af8e99c64abe3d5aa6') in 0.028251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/SavedObjects/InvisibleWall_Closed.prefab
-  artifactKey: Guid(7d1e111ee267b794bb29f896f18ac524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/InvisibleWall_Closed.prefab using Guid(7d1e111ee267b794bb29f896f18ac524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763243057b8eee7cddc711a244befbcd') in 0.007103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/SavedObjects/InvisibleWall_Open.prefab
-  artifactKey: Guid(a5d7513e1fd8a3e4aacb7d7dcc04b412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/InvisibleWall_Open.prefab using Guid(a5d7513e1fd8a3e4aacb7d7dcc04b412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b09ddbe5a254da2da8384afea862385') in 0.007762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/SavedObjects/Scrap_2.prefab
-  artifactKey: Guid(0f83415e6cfd91745bab93afedc87d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Scrap_2.prefab using Guid(0f83415e6cfd91745bab93afedc87d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea9b282cd28f7bdc70b985943825f1e') in 0.010764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/SavedObjects/Shield.prefab
-  artifactKey: Guid(930d6b4aa817e33488b7b975db24c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Shield.prefab using Guid(930d6b4aa817e33488b7b975db24c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43becf1beff83ee9d6e1c7d99adb4190') in 0.014036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/SavedObjects/ProjectileBase.prefab
-  artifactKey: Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/ProjectileBase.prefab using Guid(cc024c89378e98c43bada83c4a994bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911b485ba24214bd456b63daf0fe93dd') in 0.011773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/SavedObjects/Missile.prefab
-  artifactKey: Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Missile.prefab using Guid(a50ffd98f549c104bb07995b85fbdc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c6ac72ff9b337671bddde1a6e5b1c') in 0.008918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/SavedObjects/Astroid_2_Fractured.prefab
-  artifactKey: Guid(bd3073231dffcc24bbdeecb1b7d1529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Astroid_2_Fractured.prefab using Guid(bd3073231dffcc24bbdeecb1b7d1529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224e5e4ac5b98f873e8ff13081bf1485') in 0.018360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/SavedObjects/Cthulhu_Rig.prefab
-  artifactKey: Guid(3ab1ba8150afe374386f569cf22d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SavedObjects/Cthulhu_Rig.prefab using Guid(3ab1ba8150afe374386f569cf22d25bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e27323cefb50aa36724d8a51e15e05b') in 0.059142 seconds 
+Start importing Assets/PlayerControls.inputactions using Guid(b71c555dbc26c234c91ce5d0ef3766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df387080544c89f76ea7f3b212da438') in 0.031007 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004425 seconds.
+Registered in 0.006666 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\DukeOfHounds\Desktop\Cathulu-but-in-Space\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  1.270 seconds
 Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (798ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1069ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 3.904100 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.152500 ms MarkObjects: 3.218300 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007375 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (274ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (335ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.9 MB.
-System memory in use after: 245.1 MB.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4002.
-Total: 2.888000 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.514300 ms  DeleteObjects: 0.039200 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3884.
+Total: 3.465300 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.083100 ms MarkObjects: 3.070100 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1879.837313 seconds.
+  path: Assets/Models&Textures/Asteroid1.2.prefab
+  artifactKey: Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Asteroid1.2.prefab using Guid(b7b9a38fa64617347a5b45b0dd9ee69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e95fd4969cbb9122628a3873c22685') in 0.090196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Models&Textures/Hollow_astroid (2).fbx
+  artifactKey: Guid(b5035338edc14ff4e897a69363a618de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Hollow_astroid (2).fbx using Guid(b5035338edc14ff4e897a69363a618de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0e4dd425a8625064972ae2abee434') in 0.076164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Models&Textures/Boss_Artifacts.fbx
+  artifactKey: Guid(a0adcc5f7558ae64aa12d6596ea1037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Boss_Artifacts.fbx using Guid(a0adcc5f7558ae64aa12d6596ea1037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c22d075bd93b7ec09be60b8316921') in 0.013887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models&Textures/Scrap.fbx
+  artifactKey: Guid(810ac5a5124569c4ea75bf064c7a5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Scrap.fbx using Guid(810ac5a5124569c4ea75bf064c7a5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee0d4e1f10ed76d2298cd7f31e37d26') in 0.024251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models&Textures/Ship.prefab
+  artifactKey: Guid(43e644601ffd6f7409ecfd5d95e13a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Ship.prefab using Guid(43e644601ffd6f7409ecfd5d95e13a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671577dac1df19b53c9e2776ea8ada10') in 0.009553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models&Textures/Wormhole.fbx
+  artifactKey: Guid(0e367ea056a898a4f873dcdd7d4d0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Wormhole.fbx using Guid(0e367ea056a898a4f873dcdd7d4d0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b3cefd905b6f34ed10aa934d36056') in 0.026857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models&Textures/Cthulhu_Rig.fbx
+  artifactKey: Guid(99b20f4610f104d478392400bdef08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Cthulhu_Rig.fbx using Guid(99b20f4610f104d478392400bdef08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807daffbd48139698848adc633697a08') in 0.059469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models&Textures/Ship.fbx
+  artifactKey: Guid(16210e2f168dba94eb8ecedb52121e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Ship.fbx using Guid(16210e2f168dba94eb8ecedb52121e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ee58ab3b58134b9a1df7454da6da74') in 0.020712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.880056 seconds.
+  path: Assets/Models&Textures/Materials
+  artifactKey: Guid(eff9eaafff108c649931b521134c65c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials using Guid(eff9eaafff108c649931b521134c65c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a86fef20661c68cf60ecc0281c49015') in 0.005745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028990 seconds.
+  path: Assets/Models&Textures/Materials/Jewel.mat
+  artifactKey: Guid(cbe53211e0c9e994195704ecfb8c5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/Jewel.mat using Guid(cbe53211e0c9e994195704ecfb8c5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f835110725070c1f8aa3f1af1a0cdbd') in 0.017246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models&Textures/Materials/Wormhole2.png
+  artifactKey: Guid(0590ee405a217cd4a89bff21ac9a64c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/Wormhole2.png using Guid(0590ee405a217cd4a89bff21ac9a64c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70651bc927afae74ccfeba959928df8d') in 0.018687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models&Textures/Materials/ShipMaterial.mat
+  artifactKey: Guid(ee3ad237c4bfc1b4baa6857cbd9217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/ShipMaterial.mat using Guid(ee3ad237c4bfc1b4baa6857cbd9217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2768e5256a482525d0132e75affd6c2d') in 0.012593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models&Textures/Materials/New Material.mat
+  artifactKey: Guid(0926319341a36924680b7d698574bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/New Material.mat using Guid(0926319341a36924680b7d698574bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42807de4870a7a9806f425017463ca55') in 0.011710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Models&Textures/Materials/PanelMaterial.mat
+  artifactKey: Guid(4127dc3c88688d8458877f8b3f6881b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/PanelMaterial.mat using Guid(4127dc3c88688d8458877f8b3f6881b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b304368cb9559d16938ca93cc372db1e') in 0.010120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models&Textures/Materials/Ship_Shell_Texture.tga
+  artifactKey: Guid(5e81a6da65404a3409714d523741d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/Ship_Shell_Texture.tga using Guid(5e81a6da65404a3409714d523741d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc686ce0e57595ca96e0b03b2cc97751') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models&Textures/Materials/Shield.mat
+  artifactKey: Guid(ca3ea5134c606e94e97a69fe61f422b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/Shield.mat using Guid(ca3ea5134c606e94e97a69fe61f422b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dfe9cfb2371587b3bf907ba3b1505f') in 0.012415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models&Textures/Materials/Wormhole2.mat
+  artifactKey: Guid(ec448a265964ef94e9f4a1194eaeedb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/Wormhole2.mat using Guid(ec448a265964ef94e9f4a1194eaeedb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4032aa4a88e856964ad019eae0b0ce90') in 0.011061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.408704 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex
+  artifactKey: Guid(64aa81fbdbc65e2478a2bc26769b8351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex using Guid(64aa81fbdbc65e2478a2bc26769b8351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f61980f8794bfab849c60340fd6a5e') in 0.004796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.827416 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body
+  artifactKey: Guid(85fd306c669fcd343ad963b52bab01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body using Guid(85fd306c669fcd343ad963b52bab01b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a9638c3057952b4ba6d1cf20cd0d40') in 0.005014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063432 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Height.png
+  artifactKey: Guid(a8c042692630b4249a539c2cf78a77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Height.png using Guid(a8c042692630b4249a539c2cf78a77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb18e761e6e822f144832c54868f638') in 0.013488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Texture_B.png
+  artifactKey: Guid(1fb867a822ea03c4ca0a6c79abcfe33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Texture_B.png using Guid(1fb867a822ea03c4ca0a6c79abcfe33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a39d39d65ba2ea09c7ff8cd162c6cf') in 0.014048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Normal.png
+  artifactKey: Guid(532643f3807de694d9c31cc96c58f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Normal.png using Guid(532643f3807de694d9c31cc96c58f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a546853b8b6c092b4320c1055d6c76') in 0.013565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/M_CBody.mat
+  artifactKey: Guid(70db98e8bdbd0e545ba9c7849e6b455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/M_CBody.mat using Guid(70db98e8bdbd0e545ba9c7849e6b455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3c5866f74a9d060fdd03546377d714') in 0.020436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Texture_A.png
+  artifactKey: Guid(766373eedc0c9a44a9ceb8af7cd9402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Texture_A.png using Guid(766373eedc0c9a44a9ceb8af7cd9402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e5bddc38287e7a0e96f3b10bba8e5a') in 0.010673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Metallic.png
+  artifactKey: Guid(eb7baaf7d9cc03549bbb06d0bf257796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Metallic.png using Guid(eb7baaf7d9cc03549bbb06d0bf257796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a7462c6b0817f86b5731a94842e9f') in 0.014048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Roughness.png
+  artifactKey: Guid(309c75e279c6ce944a03ed7bc81c5f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Roughness.png using Guid(309c75e279c6ce944a03ed7bc81c5f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df042f86bafdc8a1a02ea719aac3cca') in 0.011010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.126983 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Metallic.png
+  artifactKey: Guid(eb7baaf7d9cc03549bbb06d0bf257796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Body/Body_Metallic.png using Guid(eb7baaf7d9cc03549bbb06d0bf257796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55001f5fa9c9c07eed0aff36a47202d0') in 0.013579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.380829 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores
+  artifactKey: Guid(99f3ef73d84df7f4a9065c03e543ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores using Guid(99f3ef73d84df7f4a9065c03e543ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f3a729055a5d4d839b6a7a856a053') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030960 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Height.png
+  artifactKey: Guid(1c107b81dd39d294281c62aaea127f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Height.png using Guid(1c107b81dd39d294281c62aaea127f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121cdb1730042256d489151f2f94a910') in 0.014258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Roughness.png
+  artifactKey: Guid(d878068122d73fb4da1158c626716823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Roughness.png using Guid(d878068122d73fb4da1158c626716823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ca683dc663d57575e980c8fcaffe30') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Metallic.png
+  artifactKey: Guid(8af29f989efc31b488ccede8b268b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Metallic.png using Guid(8af29f989efc31b488ccede8b268b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d55a7d005ecca53ddb75c49a65a1f8') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Normal.png
+  artifactKey: Guid(f0aa9750f25a9d348b33c1a8d2db367a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Normal.png using Guid(f0aa9750f25a9d348b33c1a8d2db367a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2704958e26b7e127dd58585d262c02') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Texture.png
+  artifactKey: Guid(82702ff51a1497f43a36d2cac6305f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Texture.png using Guid(82702ff51a1497f43a36d2cac6305f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7f1abb59eaf5a7d21b5eb8673f2d85') in 0.012552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.466424 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Metallic.png
+  artifactKey: Guid(8af29f989efc31b488ccede8b268b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/Cores_Metallic.png using Guid(8af29f989efc31b488ccede8b268b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d031f954a6456a3680546b239fceea') in 0.011416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.360488 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor
+  artifactKey: Guid(0822695ebe7b7b2449a1cd1a97986c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor using Guid(0822695ebe7b7b2449a1cd1a97986c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c283721ad446eb0da1bb40c0417fe') in 0.005025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047485 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Height.png
+  artifactKey: Guid(028b784f935ee1340bcd528a9cacec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Height.png using Guid(028b784f935ee1340bcd528a9cacec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f202e1609db8364f00d0492abe09db') in 0.011342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Normal.png
+  artifactKey: Guid(b8ea9224ac9e45f4e9dc2d855f6a6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Normal.png using Guid(b8ea9224ac9e45f4e9dc2d855f6a6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef262d542578392d31605afa3e06330') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Metallic.png
+  artifactKey: Guid(763e8e004fd93414fb87cf2426c560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Metallic.png using Guid(763e8e004fd93414fb87cf2426c560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411a6f0a4df7999888b094fd085e43d6') in 0.015835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Roughness.png
+  artifactKey: Guid(d07878a7327113940a7ceff6e07ddf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Roughness.png using Guid(d07878a7327113940a7ceff6e07ddf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3944e69d2e9dce5351f4f4f231bf00') in 0.013923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Texture.png
+  artifactKey: Guid(0893daacd6712fa45af2b2bd16072294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Texture.png using Guid(0893daacd6712fa45af2b2bd16072294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74dc08a052d0af9ab7a72d3213bf4b1') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.438588 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/Cores_Metallic.png
+  artifactKey: Guid(121ca7b256fe67d409a89d75fa7eed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/Cores_Metallic.png using Guid(121ca7b256fe67d409a89d75fa7eed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34e316ba7780b9c3d0d814bd0e47ce') in 0.017293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.572926 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor
+  artifactKey: Guid(865d24ddc3e0f7c4f8fb1f5b25f63f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor using Guid(865d24ddc3e0f7c4f8fb1f5b25f63f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bf79b15c22e1f8c9cb1e6acee690ac') in 0.005194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058159 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Height.png
+  artifactKey: Guid(c6db2a6208aa8ac47bec932cabbae6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Height.png using Guid(c6db2a6208aa8ac47bec932cabbae6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395847520cfa3109f86862713a8f932') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Normal.png
+  artifactKey: Guid(39c7b71626e7f50459c42d32d8418055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Normal.png using Guid(39c7b71626e7f50459c42d32d8418055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a1b572f9d9012dda33c2b61158c966') in 0.013591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Metallic.png
+  artifactKey: Guid(b7c8c4a0a4f463f4c966fdf256f35033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Metallic.png using Guid(b7c8c4a0a4f463f4c966fdf256f35033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f405bb784c57d3c5ca544d78d006de2b') in 0.016269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Roughness.png
+  artifactKey: Guid(8104bb25e3b637a4093c0ae501928912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Roughness.png using Guid(8104bb25e3b637a4093c0ae501928912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf311faff9b12271d15ceeedb5d7e80') in 0.027259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Texture.png
+  artifactKey: Guid(a052c0b51a400014faa3a8d4e23d9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Texture.png using Guid(a052c0b51a400014faa3a8d4e23d9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d5da0558850411af199cbec0de1735') in 0.012230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.966145 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Metallic.png
+  artifactKey: Guid(b7c8c4a0a4f463f4c966fdf256f35033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/UpperArmor_Metallic.png using Guid(b7c8c4a0a4f463f4c966fdf256f35033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bbbd0df8feb8c193585ee4cc73faee') in 0.011860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.265152 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Metallic.png
+  artifactKey: Guid(763e8e004fd93414fb87cf2426c560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/LowerArmor_Metallic.png using Guid(763e8e004fd93414fb87cf2426c560f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccedbf3a0b29463dbdaf36642dd7540') in 0.011651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.715735 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/Cores/M_Core.mat
+  artifactKey: Guid(60cb46b6ee182844a867121fda658866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/Cores/M_Core.mat using Guid(60cb46b6ee182844a867121fda658866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2581e207e37970fcc429d08336a591') in 0.010193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.787747 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/M_LA.mat
+  artifactKey: Guid(9c90a3b16ecd6da4382184157cd57cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/LowerArmor/M_LA.mat using Guid(9c90a3b16ecd6da4382184157cd57cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5006c2e5eafef758e354a10f918c3ad3') in 0.020502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.316640 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/M_UA.mat
+  artifactKey: Guid(5e82c4a0481b8e241b3fab74825b0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/M_UA.mat using Guid(5e82c4a0481b8e241b3fab74825b0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d4c393637534ffffaa43629b259d3b') in 0.010821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.090052 seconds.
+  path: Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/M_UA.mat
+  artifactKey: Guid(5e82c4a0481b8e241b3fab74825b0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models&Textures/Materials/CthulhuTex/UpperArmor/M_UA.mat using Guid(5e82c4a0481b8e241b3fab74825b0b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e9860654805698e766664ba0834810') in 0.021114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\New Account\Desktop\CBIS\CthulhuButInSpace\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (909ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 292.1 MB.
+System memory in use after: 292.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4344.
+Total: 3.102700 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.675100 ms  DeleteObjects: 0.022700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

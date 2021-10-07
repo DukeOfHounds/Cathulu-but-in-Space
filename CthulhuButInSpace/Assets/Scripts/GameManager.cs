@@ -6,11 +6,18 @@ using UnityEngine.SceneManagement;
 
 namespace HealthAndDamage
 {
+
+    
     public class GameManager : MonoBehaviour
     {
+        GameObject player;
+         void start()
+        {
+            player = PlayerManager.instance.player;
+        }
         [Header("=== Menue Toggles ===")]
         [SerializeField]
-        private bool gameOver = false; // should the gameOver screen show bool
+        public bool gameOver = false; // should the gameOver screen show bool
 
         [Header("=== Menue Toggles ===")]
         [SerializeField]
@@ -37,6 +44,7 @@ namespace HealthAndDamage
             if (gameOver == false)
             {
                 gameOver = true;
+                Time.timeScale = 0;
                 Invoke("DisplayGameOver", timeDelay); //Opens UI
 
             }
@@ -63,11 +71,6 @@ namespace HealthAndDamage
             Cursor.visible = false;
             gameOverUI.SetActive(false);
 
-        }
-        public void Restart()// Reloads current Scene
-        {
-            CloseGameOver();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reloads current Scene
         }
 
     }
