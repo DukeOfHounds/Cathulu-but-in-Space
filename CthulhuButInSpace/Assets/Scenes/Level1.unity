@@ -6328,7 +6328,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1349006517
 Transform:
   m_ObjectHideFlags: 0
@@ -10397,6 +10397,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 850106498059047496, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c90a3b16ecd6da4382184157cd57cc0, type: 2}
+    - target: {fileID: 850106498059047496, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e82c4a0481b8e241b3fab74825b0b11, type: 2}
+    - target: {fileID: 850106498059047496, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70db98e8bdbd0e545ba9c7849e6b455e, type: 2}
+    - target: {fileID: 850106498059047496, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c90a3b16ecd6da4382184157cd57cc0, type: 2}
+    - target: {fileID: 850106498059047496, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 60cb46b6ee182844a867121fda658866, type: 2}
     - target: {fileID: 2819393746931293620, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.73325455
