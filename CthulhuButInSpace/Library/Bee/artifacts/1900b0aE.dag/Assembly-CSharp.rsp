@@ -324,6 +324,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/ButtonManager.cs"
 "Assets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
 "Assets/Scripts/AsteroidGenerator.cs"
 "Assets/Scripts/BossController.cs"
@@ -338,6 +339,7 @@
 "Assets/Scripts/ProjectileControl.cs"
 "Assets/Scripts/ProjectileKill.cs"
 "Assets/Scripts/Spaceship.cs"
+"Assets/Scripts/TestButton.cs"
 -langversion:8.0
 
 /deterministic

@@ -2334,7 +2334,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1431738767}
-        m_TargetAssemblyTypeName: Menus, Assembly-CSharp
+        m_TargetAssemblyTypeName: HealthAndDamage.Menus, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -6979,7 +6979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1431738763
 MonoBehaviour:
   m_ObjectHideFlags: 0

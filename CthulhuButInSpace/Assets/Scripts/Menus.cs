@@ -50,10 +50,13 @@ namespace HealthAndDamage
         }
         public void PlayGame()
         {
-            SceneManager.LoadScene("Level1");
+            Debug.Log("test");
+
+            //SceneManager.LoadScene("Level1");
         }
         public void QuitGame()
         {
+            Debug.Log("test");
             Application.Quit();
         }
 
