@@ -8,6 +8,8 @@ namespace HealthAndDamage
     public class Spaceship : MonoBehaviour
     {
         public float maxSpeed = 1;
+        public Canvas pauseScreen;
+
 
         [Header("=== Ship Movement Settings ===")]
         [SerializeField]
@@ -73,6 +75,8 @@ namespace HealthAndDamage
         // Update is called once per frame
         void Update()
         {
+            Cursor.visible = true;
+
             if (alive)
             {
                 HandleBoosting();
@@ -228,6 +232,14 @@ namespace HealthAndDamage
         public void OnBoost(InputAction.CallbackContext context)
         {
             boosting = context.performed;
+        }
+        public void OnPause(InputAction.CallbackContext context)
+        {
+            pauseScreen.gameObject.SetActive(true);
+            Cursor.visible = true;
+            Time.timeScale = 0;
+
+
         }
         #endregion
     }

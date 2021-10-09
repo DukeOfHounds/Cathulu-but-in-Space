@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class BossController : MonoBehaviour
 {
+    public GameObject Cthulhu;
+    public float teleportRange;
     public float sightRadius = 1000f;
     public float rotationSpeed;
     private float startRotationSpeed = .1f;
@@ -30,6 +32,8 @@ public class BossController : MonoBehaviour
         rotationSpeed = startRotationSpeed;
         bossSpeed = bossStartSpeed;
     }
+
+   
 
     // Update is called once per frame
     void Update()
@@ -73,7 +77,29 @@ public class BossController : MonoBehaviour
         //transform.position = Vector3.MoveTowards(transform.position, destination, bossSpeed);
         //StartCoroutine(ResetSpeed()); //Move Away From Player, Not Workiing
     }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Vector3 spawnPoint = new Vector3(
+            Random.Range(-1f, 1f),
+            Random.Range(-1f, 1f),
+            Random.Range(-1f, 1f));
+        if (collision.gameObject.tag == "Player")
+        {
+            canMove = false;
 
+            Vector3 origin = Cthulhu.transform.position;
+
+            if (spawnPoint.magnitude > 1)
+            {
+                spawnPoint.Normalize();
+            }
+
+            spawnPoint *= teleportRange;
+            spawnPoint += origin;
+        }
+        Cthulhu.transform.position = spawnPoint;
+        canMove = true;
+    }
     public void Attack()
     {
         switch (CurrentAttack)

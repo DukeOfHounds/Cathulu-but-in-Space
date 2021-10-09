@@ -587,6 +587,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 183767855459408292, guid: 247ce0033514acc4d8ecc6f791500d8c, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 183767855459408292, guid: 247ce0033514acc4d8ecc6f791500d8c, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 183767855459408292, guid: 247ce0033514acc4d8ecc6f791500d8c, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 183767855459408294, guid: 247ce0033514acc4d8ecc6f791500d8c, type: 3}
       propertyPath: m_Name
       value: CreditsMenu
@@ -890,4 +902,5 @@ MonoBehaviour:
   healthText: {fileID: 0}
   speedText: {fileID: 0}
   BoostingText: {fileID: 0}
+  Mission: {fileID: 0}
   player: {fileID: 0}

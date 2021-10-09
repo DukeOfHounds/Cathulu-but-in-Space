@@ -27,8 +27,7 @@ namespace HealthAndDamage
              if(startOfGame == false) 
             { 
                 float damage;
-                float velocity;
-                if ((gameObject.tag == "Asteroid" || gameObject.tag == "Scrap" + collision.gameObject.tag || gameObject.tag == "Jewel") && (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel"))
+                if ((gameObject.tag == "Asteroid" || gameObject.tag == "Scrap" || gameObject.tag == "Jewel") && (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap" || collision.gameObject.tag == "Jewel"))
                 {
                     
                     damage = gameObject.GetComponent<Rigidbody>().mass * (gameObject.GetComponent<Rigidbody>().velocity.magnitude + collision.gameObject.GetComponent<Rigidbody>().velocity.magnitude);
@@ -38,7 +37,7 @@ namespace HealthAndDamage
                 }
 
 
-                if (gameObject.tag == "Player")// if the player colides with a rock
+                if (gameObject.tag == "Player" && (collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap") )// if the player colides with a debries
                 {
                     damage = collision.gameObject.GetComponent<Rigidbody>().mass;
                     gameObject.GetComponent<HealthScript>().takeDamage(damage);

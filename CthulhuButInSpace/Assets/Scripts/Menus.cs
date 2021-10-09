@@ -10,14 +10,19 @@ namespace HealthAndDamage
         public Text healthText; 
         public Text speedText;
         public Text BoostingText;
+        public Text Mission;
+        public Canvas pauseScreen;
         public GameObject player;
         private GameObject gameManager;
+        private GameObject keyDoor;
+
         // Start is called before the first frame update
         void Start()
         {
             if (SceneManager.GetActiveScene().name == "Level1")
             {
                 gameManager = GameObject.Find("GameManager");
+                keyDoor = GameObject.Find("Portal");
             }
         }
 
@@ -39,6 +44,14 @@ namespace HealthAndDamage
                         BoostingText.text = "";
                     }
                 }
+                if (keyDoor.GetComponent<JewelDoorSystem>().JewelsDestroyed && !keyDoor.GetComponent<JewelDoorSystem>().FoundPortal)
+                {
+                    Mission.text = "MISSION:\n  Find Portal\n      Home in\n         Asteroid";
+                }
+                if (keyDoor.GetComponent<JewelDoorSystem>().FoundPortal)
+                {
+                    Mission.text = "Good Work\n      Pilot,\n     Welcome\n         home ";
+                }
             }
         }
         public void Restart()
@@ -50,15 +63,18 @@ namespace HealthAndDamage
         }
         public void PlayGame()
         {
-            Debug.Log("test");
 
-            //SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level1");
         }
         public void QuitGame()
         {
-            Debug.Log("test");
             Application.Quit();
         }
-
+        public void ResumeGame() 
+        { 
+            Time.timeScale = 1;
+            pauseScreen.gameObject.SetActive(false);
+            Cursor.visible = false;
+        }
     }
 }

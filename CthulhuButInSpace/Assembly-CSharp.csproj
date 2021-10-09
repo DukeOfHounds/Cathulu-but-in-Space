@@ -73,8 +73,6 @@
     <Compile Include="Assets\Scripts\JewelDoorSystem.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Scripts\TestButton.cs" />
-    <Compile Include="Assets\ButtonManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
