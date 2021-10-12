@@ -29,11 +29,11 @@ namespace HealthAndDamage
         }
 
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter(Collider collision)
         {
-            if (damageActive == true)
+            if ((collision.gameObject.tag == "Player") && (damageActive == true))
             {
-                other.gameObject.GetComponent<HealthScript>().takeDamage(100f);
+                collision.gameObject.GetComponent<HealthScript>().takeDamage(100f);
             }        
         }
     }

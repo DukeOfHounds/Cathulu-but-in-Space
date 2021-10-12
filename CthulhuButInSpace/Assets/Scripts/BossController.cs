@@ -44,7 +44,7 @@ public class BossController : MonoBehaviour
     void Update()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-
+        
         if (targetDistance <= sightRadius)
         {
             MoveFaceTarget();
@@ -80,7 +80,7 @@ public class BossController : MonoBehaviour
         {
             //canMove = false;
             //canRotate = false;
-            Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
+            //Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
             Vector3 origin = Cthulhu.transform.position;
 
             if (spawnPoint.magnitude > 1)
@@ -90,8 +90,10 @@ public class BossController : MonoBehaviour
 
             spawnPoint *= teleportRange;
             spawnPoint += origin;
+            Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
+            Cthulhu.transform.position = spawnPoint;           
         }
-        Cthulhu.transform.position = spawnPoint;
+        
         ResetMovement();
     }
     public void Attack()

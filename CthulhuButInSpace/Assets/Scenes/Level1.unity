@@ -12276,7 +12276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3724475307325942950, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
       propertyPath: sightRadius
-      value: 20000
+      value: 35000
       objectReference: {fileID: 0}
     - target: {fileID: 3724475307325942950, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
       propertyPath: dashParticle
@@ -12366,6 +12366,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 7117212600816856738, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fd9b911089d33ee4589202e9383217b3, type: 2}
     m_RemovedComponents:
     - {fileID: 1254836747859266651, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
