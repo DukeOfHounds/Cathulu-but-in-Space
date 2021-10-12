@@ -14,18 +14,19 @@ public class BossController : MonoBehaviour
     public float startRotationSpeed = .1f;
     private float bossSpeed;
     public float bossStartSpeed = 1.5f;
+    public Animator animator;
 
     private bool canRotate = true;
     private bool canMove = true;
     private bool isAttacking;
     private Vector3 destination;
     private float attackCD = 0f;
-    private float attackTimer = 8f;
+    public float attackTimer = 12f;
 
 
-    private enum attackTypes {Melee, Ranged, Tentacle };
+    private enum attackTypes { Melee, Ranged, Tentacle };
     attackTypes CurrentAttack;
-    
+
     Transform target;
     Camera cam;
 
@@ -38,13 +39,13 @@ public class BossController : MonoBehaviour
         bossSpeed = bossStartSpeed;
     }
 
-   
+
 
     // Update is called once per frame
     void Update()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-        
+
         if (targetDistance <= sightRadius)
         {
             MoveFaceTarget();
@@ -61,11 +62,15 @@ public class BossController : MonoBehaviour
         BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = false;
         //canMove = true;
     }
-    IEnumerator ResetMovement()
+    IEnumerator LaserAttack()
     {
-        yield return new WaitForSeconds(1f);
-        //canRotate = true;
-        //canMove = true;
+        animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(3.5f);
+        //canMove = false;
+        rotationSpeed = startRotationSpeed * 4f;
+        //MoveFaceTarget();
+        BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = true;
+        StartCoroutine(ResetRangedAttack());
 
     }
 
@@ -91,10 +96,10 @@ public class BossController : MonoBehaviour
             spawnPoint *= teleportRange;
             spawnPoint += origin;
             Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
-            Cthulhu.transform.position = spawnPoint;           
+            Cthulhu.transform.position = spawnPoint;
         }
-        
-        ResetMovement();
+
+
     }
     public void Attack()
     {
@@ -108,18 +113,14 @@ public class BossController : MonoBehaviour
                 //perform Tentacle attack
                 break;
             case attackTypes.Ranged:
-                //canMove = false;
-                rotationSpeed = startRotationSpeed * 4f;
-                //MoveFaceTarget();
-                BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = true;
-                StartCoroutine(ResetRangedAttack());
+                StartCoroutine(LaserAttack());
                 break;
         }
     }
 
     public void CheckAttack()
     {
-        if(attackCD > 0f)
+        if (attackCD > 0f)
         {
             attackCD = Mathf.Clamp(attackCD - Time.deltaTime, 0.0f, attackTimer);
         }

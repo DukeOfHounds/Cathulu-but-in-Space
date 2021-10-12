@@ -7,6 +7,9 @@ public class JewelDoorSystem : MonoBehaviour
     public GameObject Enteranceportal;
     public GameObject Exitceportal;
     public GameObject player;
+    public Animator animator;
+
+
     private List<GameObject> jewelList = new List<GameObject>();
     private GameObject[] jewels;
     public GameObject portalF;
@@ -62,6 +65,7 @@ public class JewelDoorSystem : MonoBehaviour
             }
             if (JewelsDestroyed)// if all jewels are destroyed
             {
+                animator.SetBool("Death", true);
                 portalF.SetActive(true);// spawn portal
                 portalB.SetActive(true);// spawn portal
                 Debug.Log("Boss is dead");

@@ -8,6 +8,7 @@ namespace HealthAndDamage
     {
 
         public float health = 1;
+        public Animator animator;
 
         private float maxHealth;
         private float shieldCD = 0f;
@@ -86,6 +87,7 @@ namespace HealthAndDamage
                         break;
                     case "Jewel":
                         gameObject.SetActive(false);
+                        animator.SetTrigger("Damage");
                         break;
                     case "Player":
                         // unfinished

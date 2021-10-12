@@ -2674,6 +2674,7 @@ MonoBehaviour:
   Enteranceportal: {fileID: 490364045}
   Exitceportal: {fileID: 2054936785}
   player: {fileID: 1054371509}
+  animator: {fileID: 0}
   portalF: {fileID: 1150822904}
   portalB: {fileID: 979405580}
   JewelsDestroyed: 0
@@ -5179,6 +5180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466, guid: 950b10fd1c8f30541937fe3e8950a7f8, type: 3}
 --- !u!135 &1054371512
 SphereCollider:
@@ -11219,6 +11221,7 @@ MonoBehaviour:
   Enteranceportal: {fileID: 490364045}
   Exitceportal: {fileID: 2054936785}
   player: {fileID: 1054371509}
+  animator: {fileID: 0}
   portalF: {fileID: 1121872821}
   portalB: {fileID: 135233674}
   JewelsDestroyed: 0
@@ -11681,6 +11684,7 @@ MonoBehaviour:
   Enteranceportal: {fileID: 490364045}
   Exitceportal: {fileID: 2054936785}
   player: {fileID: 1054371509}
+  animator: {fileID: 1427711881}
   portalF: {fileID: 490364045}
   portalB: {fileID: 2054936785}
   JewelsDestroyed: 0
@@ -12286,10 +12290,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 68.671
       objectReference: {fileID: 0}
+    - target: {fileID: 3724475307029479033, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1427711881}
+    - target: {fileID: 3724475307064960433, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1427711881}
     - target: {fileID: 3724475307325942950, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
       propertyPath: Cthulhu
       value: 
       objectReference: {fileID: 54379519}
+    - target: {fileID: 3724475307325942950, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1427711881}
     - target: {fileID: 3724475307325942950, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
       propertyPath: BossLaser
       value: 
@@ -12390,13 +12406,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Asteroid
       objectReference: {fileID: 0}
-    - target: {fileID: 7117212600816856738, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
-      propertyPath: m_Controller
+    - target: {fileID: 7670579629938111530, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      propertyPath: animator
       value: 
-      objectReference: {fileID: 9100000, guid: c7565ed8501325f4895c74358eb4b019, type: 2}
-    m_RemovedComponents:
-    - {fileID: 1254836747859266651, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
-    - {fileID: 7117212600816856738, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
+      objectReference: {fileID: 1427711881}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ab1ba8150afe374386f569cf22d25bb, type: 3}
 --- !u!4 &3920349879417107364
 Transform:
