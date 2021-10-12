@@ -9,6 +9,7 @@ namespace HealthAndDamage
     {
         public float maxSpeed = 1;
         public Canvas pauseScreen;
+        public GameManager gM;
 
 
         [Header("=== Ship Movement Settings ===")]
@@ -69,6 +70,11 @@ namespace HealthAndDamage
             currentBoostAmount = maxBoostAmount;
             Cursor.visible = false; // hides cursor 
             Cursor.lockState = CursorLockMode.Confined;// locks cursor to game window
+            if(gM.tutorial == true)
+            {
+                StartTutorial();
+                StartCoroutine(EndTutorial());
+            }
 
         }
 
@@ -202,42 +208,77 @@ namespace HealthAndDamage
 
         }
 
+        public void StartTutorial()
+        {
+            thrust1D = Mathf.Lerp(0, 1, 1);
+        }
+
+        IEnumerator EndTutorial()
+        {
+            yield return new WaitForSeconds(4f);
+            gM.tutorial = false;
+            thrust1D = 0;
+        }
         //interacts with the player controler for key bindings and input values
         #region Input Methods
         public void OnThrust(InputAction.CallbackContext context)
         {
-            thrust1D = context.ReadValue<float>();
+            if(gM.tutorial == false)
+            {
+                thrust1D = context.ReadValue<float>();
+            }
         }
         public void OnStrafe(InputAction.CallbackContext context)
         {
-            strafe1D = context.ReadValue<float>();
+           if(gM.tutorial == false)
+           {
+                strafe1D = context.ReadValue<float>();
+           }
         }
         public void OnUpDown(InputAction.CallbackContext context)
         {
-            upDown1D = context.ReadValue<float>();
+           if(gM.tutorial == false)
+           {
+                upDown1D = context.ReadValue<float>();
+           }
         }
         public void OnRoll(InputAction.CallbackContext context)
         {
-            roll1D = context.ReadValue<float>();
+            if(gM.tutorial == false)
+            {
+                roll1D = context.ReadValue<float>();
+            }
         }
         public void OnPitchYaw(InputAction.CallbackContext context)
         {
-            pitchYaw = context.ReadValue<Vector2>();
+            if(gM.tutorial == false)
+            {
+                pitchYaw = context.ReadValue<Vector2>();
+            }
         }
         public void OnStabalize(InputAction.CallbackContext context)
         {
-            Stabalize();
+            if(gM.tutorial == false)
+            {
+                Stabalize();
+            }
         }
 
         public void OnBoost(InputAction.CallbackContext context)
         {
-            boosting = context.performed;
+            if(gM.tutorial == false)
+            {
+                boosting = context.performed;
+            }
         }
         public void OnPause(InputAction.CallbackContext context)
         {
-            pauseScreen.gameObject.SetActive(true);
-            Cursor.visible = true;
-            Time.timeScale = 0;
+            if(gM.tutorial == false)
+            {
+                pauseScreen.gameObject.SetActive(true);
+                Cursor.visible = true;
+                Time.timeScale = 0;
+            }
 
 
         }

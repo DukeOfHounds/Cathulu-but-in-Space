@@ -6,17 +6,22 @@ using UnityEngine.AI;
 public class BossController : MonoBehaviour
 {
     public GameObject Cthulhu;
+    public GameObject BossLaser;
+    public GameObject dashParticle;
     public float teleportRange;
     public float sightRadius = 1000f;
-    public float rotationSpeed;
-    private float startRotationSpeed = .1f;
-    public float bossSpeed;
-    private float bossStartSpeed = 1.5f;
+    private float rotationSpeed;
+    public float startRotationSpeed = .1f;
+    private float bossSpeed;
+    public float bossStartSpeed = 1.5f;
 
     private bool canRotate = true;
     private bool canMove = true;
     private bool isAttacking;
     private Vector3 destination;
+    private float attackCD = 0f;
+    private float attackTimer = 8f;
+
 
     private enum attackTypes {Melee, Ranged, Tentacle };
     attackTypes CurrentAttack;
@@ -43,40 +48,28 @@ public class BossController : MonoBehaviour
         if (targetDistance <= sightRadius)
         {
             MoveFaceTarget();
+            CheckAttack();
+            CurrentAttack = attackTypes.Ranged;
 
-            if (targetDistance <= sightRadius / 1.1)
-            {
-                CurrentAttack = attackTypes.Tentacle;
-
-                if (targetDistance <= sightRadius / 2)
-                {
-                    CurrentAttack = attackTypes.Ranged;
-
-
-                    if (targetDistance <= sightRadius / 4)
-                    {
-                        CurrentAttack = attackTypes.Melee;
-                        DashAway();
-                    }
-                }
-            }
         }
     }
 
-    IEnumerator ResetSpeed()
+    IEnumerator ResetRangedAttack()
     {
         yield return new WaitForSeconds(2f);
-        bossSpeed = bossStartSpeed;
+        rotationSpeed = startRotationSpeed;
+        BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = false;
+        //canMove = true;
+    }
+    IEnumerator ResetMovement()
+    {
+        yield return new WaitForSeconds(1f);
+        //canRotate = true;
+        //canMove = true;
+
     }
 
-    public void DashAway()
-    {
-        //bossSpeed = bossSpeed * 2f;
-        //Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-        //destination = ray.GetPoint(4000);
-        //transform.position = Vector3.MoveTowards(transform.position, destination, bossSpeed);
-        //StartCoroutine(ResetSpeed()); //Move Away From Player, Not Workiing
-    }
+
     private void OnTriggerEnter(Collider collision)
     {
         Vector3 spawnPoint = new Vector3(
@@ -85,8 +78,9 @@ public class BossController : MonoBehaviour
             Random.Range(-1f, 1f));
         if (collision.gameObject.tag == "Player")
         {
-            canMove = false;
-
+            //canMove = false;
+            //canRotate = false;
+            Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
             Vector3 origin = Cthulhu.transform.position;
 
             if (spawnPoint.magnitude > 1)
@@ -98,10 +92,11 @@ public class BossController : MonoBehaviour
             spawnPoint += origin;
         }
         Cthulhu.transform.position = spawnPoint;
-        canMove = true;
+        ResetMovement();
     }
     public void Attack()
     {
+        attackCD = attackTimer;
         switch (CurrentAttack)
         {
             case attackTypes.Melee:
@@ -111,8 +106,24 @@ public class BossController : MonoBehaviour
                 //perform Tentacle attack
                 break;
             case attackTypes.Ranged:
-                //perform Ranged attack
+                //canMove = false;
+                rotationSpeed = startRotationSpeed * 4f;
+                //MoveFaceTarget();
+                BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = true;
+                StartCoroutine(ResetRangedAttack());
                 break;
+        }
+    }
+
+    public void CheckAttack()
+    {
+        if(attackCD > 0f)
+        {
+            attackCD = Mathf.Clamp(attackCD - Time.deltaTime, 0.0f, attackTimer);
+        }
+        else
+        {
+            Attack();
         }
     }
     public void MoveFaceTarget()

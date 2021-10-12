@@ -24,7 +24,8 @@ namespace HealthAndDamage
         private float timeDelay = 2f;// pause in time before a UI is displayed
 
         public GameObject gameOverUI;// game over UI
-
+        public bool tutorial = true;
+        
         private void Update()// for testing purposes. 
         {
             if (gameOver == true)

@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+namespace HealthAndDamage
+{
+
+    public class BossLaser : MonoBehaviour
+    {
+
+        public bool damageActive = false;
+
+        // Update is called once per frame
+        private void Awake()
+        {
+            this.gameObject.GetComponent<Renderer>().enabled = false;
+        }
+        void Update()
+        {
+            if (damageActive)
+            {
+                this.gameObject.GetComponent<Renderer>().enabled = true;
+            }
+            else
+            {
+                this.gameObject.GetComponent<Renderer>().enabled = false;
+            }
+        }
+
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (damageActive == true)
+            {
+                other.gameObject.GetComponent<HealthScript>().takeDamage(100f);
+            }        
+        }
+    }
+}

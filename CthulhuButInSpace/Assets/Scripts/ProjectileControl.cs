@@ -12,6 +12,7 @@ namespace HealthAndDamage
         public Rigidbody spaceship;
         public Spaceship spaceshipRef;
         private bool boosting;
+        public GameManager gM;
 
         private bool weaponHolstered = true;
         private float weaponHolserCD = 0.0f;
@@ -198,7 +199,7 @@ namespace HealthAndDamage
         #region Input Methods
         public void OnLaunchLaser(InputAction.CallbackContext context)
         {
-            if (boosting == false)
+            if (gM.tutorial == false && boosting == false)
             {
                 if (isFiringLaser == false)
                 {
@@ -208,7 +209,7 @@ namespace HealthAndDamage
         }
         public void OnLaunchMissile(InputAction.CallbackContext context)
         {
-            if (boosting == false)
+            if (gM.tutorial == false &&boosting == false)
             {
                 if (isFiringMissile == false)
                 {
@@ -218,7 +219,7 @@ namespace HealthAndDamage
         }
         public void OnLaunchShockWave(InputAction.CallbackContext context)
         {
-            if (boosting == false)
+            if (gM.tutorial == false && boosting == false)
             {
                 if (isFiringShockwave == false)
                 {
