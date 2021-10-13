@@ -61,13 +61,14 @@ public class BossController : MonoBehaviour
         rotationSpeed = startRotationSpeed;
         BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = false;
         //canMove = true;
+        attackCD = attackTimer;
     }
     IEnumerator LaserAttack()
     {
         animator.SetTrigger("Attack");
-        yield return new WaitForSeconds(3.5f);
-        //canMove = false;
         rotationSpeed = startRotationSpeed * 4f;
+        yield return new WaitForSeconds(2f);
+        //canMove = false;
         //MoveFaceTarget();
         BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = true;
         StartCoroutine(ResetRangedAttack());
@@ -113,7 +114,7 @@ public class BossController : MonoBehaviour
                 //perform Tentacle attack
                 break;
             case attackTypes.Ranged:
-                StartCoroutine(LaserAttack());
+                StartCoroutine(LaserAttack());            
                 break;
         }
     }

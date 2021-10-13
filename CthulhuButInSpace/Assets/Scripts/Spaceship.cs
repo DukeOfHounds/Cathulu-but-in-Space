@@ -210,14 +210,16 @@ namespace HealthAndDamage
 
         public void StartTutorial()
         {
-            thrust1D = Mathf.Lerp(0, 1, 1);
+            thrust1D = Mathf.Lerp(0f, 2.2f, 2f);
         }
 
         IEnumerator EndTutorial()
         {
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(12f);
             gM.tutorial = false;
             thrust1D = 0;
+            this.gameObject.GetComponent<ProjectileControl>().Unholster();
+            
         }
         //interacts with the player controler for key bindings and input values
         #region Input Methods

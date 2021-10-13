@@ -16,7 +16,7 @@ namespace HealthAndDamage
 
         private bool weaponHolstered = true;
         private float weaponHolserCD = 0.0f;
-        private float weaponHolsterTimer = 3.0f;
+        private float weaponHolsterTimer = 3.5f;
 
         public Animator laserL;
         public Animator laserR;
@@ -139,6 +139,15 @@ namespace HealthAndDamage
             projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * speed + spaceship.velocity;
         }
 
+        public void Unholster()
+        {
+            laserL.SetBool("inCombat", true);
+            laserR.SetBool("inCombat", true);
+            missileL.SetBool("inCombat", true);
+            missileR.SetBool("inCombat", true);
+            weaponHolstered = false;
+            weaponHolserCD = weaponHolsterTimer;
+        }
 
         IEnumerator LaunchCheckLaser()
         {
