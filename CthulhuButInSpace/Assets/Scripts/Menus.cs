@@ -7,7 +7,7 @@ namespace HealthAndDamage
 {
     public class Menus : MonoBehaviour
     {
-        public Text healthText; 
+        public Text healthText;
         public Text speedText;
         public Text BoostingText;
         public Text Mission;
@@ -16,6 +16,7 @@ namespace HealthAndDamage
         private GameObject gameManager;
         private GameObject keyDoor;
 
+        private bool sP;
         // Start is called before the first frame update
         void Start()
         {
@@ -51,7 +52,24 @@ namespace HealthAndDamage
                 if (keyDoor.GetComponent<JewelDoorSystem>().FoundPortal)
                 {
                     Mission.text = "Good Work\n      Pilot,\n     Welcome\n         home ";
+                    SceneManager.LoadScene("MainMenu");
                 }
+
+                if (Input.GetKeyDown(KeyCode.Escape) && sP)
+                {
+                    pauseScreen.gameObject.SetActive(false);
+                    Time.timeScale = 1;
+                    sP = false;
+
+                }
+                else if (Input.GetKeyDown(KeyCode.Escape) && !sP)
+                {
+                    pauseScreen.gameObject.SetActive(true);
+                    Time.timeScale = 0;
+                    sP = true;
+                }
+
+                // Update 
             }
         }
         public void Restart()
@@ -70,8 +88,8 @@ namespace HealthAndDamage
         {
             Application.Quit();
         }
-        public void ResumeGame() 
-        { 
+        public void ResumeGame()
+        {
             Time.timeScale = 1;
             pauseScreen.gameObject.SetActive(false);
             Cursor.visible = false;

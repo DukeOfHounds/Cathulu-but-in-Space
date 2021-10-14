@@ -7,6 +7,7 @@ public class JewelDoorSystem : MonoBehaviour
     public GameObject Enteranceportal;
     public GameObject Exitceportal;
     public GameObject player;
+    private GameObject Boss;
     public Animator animator;
 
 
@@ -17,12 +18,13 @@ public class JewelDoorSystem : MonoBehaviour
 
      
     public bool JewelsDestroyed = false;
-    public bool FoundPortal;
+    public bool FoundPortal = false;
     private List<bool> destroyedJewels = new List<bool>();
 
     // Start is called before the first frame update
     void Start()
     {
+        Boss = GameObject.Find("Cthulhu_Rig");
         FoundPortal = false;
         portalF.SetActive(false);
         portalB.SetActive(false);
@@ -65,7 +67,8 @@ public class JewelDoorSystem : MonoBehaviour
             }
             if (JewelsDestroyed)// if all jewels are destroyed
             {
-                animator.SetBool("Death", true);
+                //animator.SetBool("Death", true);
+                Boss.gameObject.GetComponent<BossController>().Death();
                 portalF.SetActive(true);// spawn portal
                 portalB.SetActive(true);// spawn portal
                 Debug.Log("Boss is dead");

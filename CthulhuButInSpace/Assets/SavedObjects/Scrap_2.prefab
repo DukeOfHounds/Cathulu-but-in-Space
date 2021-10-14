@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &1754266010657063157
 GameObject:
@@ -255,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &2443873690778545004
 GameObject:
@@ -383,6 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &3035708008469636076
 GameObject:
@@ -511,6 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &4685831356699182638
 GameObject:
@@ -678,6 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &7334567590500082112
 GameObject:
@@ -806,6 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &7953793944411576074
 GameObject:
@@ -934,6 +940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &8165872972691102691
 GameObject:
@@ -1062,6 +1069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &9121925707037367334
 GameObject:
@@ -1190,4 +1198,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}

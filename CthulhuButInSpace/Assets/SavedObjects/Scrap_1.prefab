@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!65 &251996415584205879
 BoxCollider:
@@ -142,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &1849616189408394329
 GameObject:
@@ -242,6 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!65 &710451063389502541
 BoxCollider:
@@ -285,6 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!1 &4685831356699182638
 GameObject:
@@ -418,6 +422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
 --- !u!65 &4648700175466116936
 BoxCollider:
@@ -461,4 +466,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 0}

@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &4211706505427401776
 MonoBehaviour:
@@ -286,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &8283549471225392581
 MonoBehaviour:
@@ -443,6 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &2376583746608373330
 MonoBehaviour:
@@ -600,6 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &664723774403370009
 MonoBehaviour:
@@ -757,6 +761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3086459166894221719
 MonoBehaviour:
@@ -914,6 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &7386984942069779500
 MonoBehaviour:
@@ -1071,6 +1077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &9022000773288499703
 MonoBehaviour:
@@ -1228,6 +1235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &7914557150168025032
 MonoBehaviour:
@@ -1385,6 +1393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &6870888238569437503
 MonoBehaviour:
@@ -1542,6 +1551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &4801477578563806121
 MonoBehaviour:
@@ -1699,6 +1709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3673466156443713106
 MonoBehaviour:
@@ -1856,6 +1867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &8190708843327341679
 MonoBehaviour:
@@ -2090,6 +2102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &7975143147159392393
 MonoBehaviour:
@@ -2247,6 +2260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &6313534538712425067
 MonoBehaviour:
@@ -2404,6 +2418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &5046237595372968733
 MonoBehaviour:
@@ -2561,6 +2576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &5099213100835534034
 MonoBehaviour:
@@ -2718,6 +2734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &7722544909693293332
 MonoBehaviour:
@@ -2875,6 +2892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &5145525747582105096
 MonoBehaviour:
@@ -3032,6 +3050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &123888374900087811
 MonoBehaviour:
@@ -3189,6 +3208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &4081133713787195950
 MonoBehaviour:
@@ -3346,6 +3366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &5161453735664277290
 MonoBehaviour:
@@ -3503,6 +3524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &4806762594707191577
 MonoBehaviour:
@@ -3660,6 +3682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3408043159459217257
 MonoBehaviour:
@@ -3817,6 +3840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3182191962050227571
 MonoBehaviour:
@@ -3974,6 +3998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3431638846919241702
 MonoBehaviour:
@@ -4131,6 +4156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &2111692626845611584
 MonoBehaviour:
@@ -4288,6 +4314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &8897654901995685121
 MonoBehaviour:
@@ -4445,6 +4472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &7243572565776684319
 MonoBehaviour:
@@ -4602,6 +4630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &4486468109961783964
 MonoBehaviour:
@@ -4759,6 +4788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &3302233797774017640
 MonoBehaviour:
@@ -4916,6 +4946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  animator: {fileID: 0}
   FracturedMesh: {fileID: 3482142489052234466}
 --- !u!114 &1853909917023056643
 MonoBehaviour:

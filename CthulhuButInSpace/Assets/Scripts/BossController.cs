@@ -22,7 +22,7 @@ public class BossController : MonoBehaviour
     private Vector3 destination;
     private float attackCD = 0f;
     public float attackTimer = 12f;
-
+    private bool dead = false;
 
     private enum attackTypes { Melee, Ranged, Tentacle, Wait };
     attackTypes CurrentAttack;
@@ -44,18 +44,16 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool random = (Random.value > 0.5f);
         float targetDistance = Vector3.Distance(target.position, transform.position);
 
-        if (targetDistance <= sightRadius)
+        if (dead == false)
         {
-            MoveFaceTarget();
-            CheckAttack();
-            if (random)
-                CurrentAttack = attackTypes.Ranged;
-            else
-                CurrentAttack = attackTypes.Wait;
+            if (targetDistance <= sightRadius)
+            {
+                MoveFaceTarget();
+                CheckAttack();
 
+            }
         }
     }
 
@@ -98,23 +96,24 @@ public class BossController : MonoBehaviour
             Random.Range(-1f, 1f),
             Random.Range(-1f, 1f),
             Random.Range(-1f, 1f));
-        if (collision.gameObject.tag == "Player")
-        {
+            if (collision.gameObject.tag == "Player")
+            {
             //canMove = false;
             //canRotate = false;
             //Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
             Vector3 origin = Cthulhu.transform.position;
 
-            if (spawnPoint.magnitude > 1)
-            {
+                if (spawnPoint.magnitude > 1)
+                {
                 spawnPoint.Normalize();
-            }
+                }
 
             spawnPoint *= teleportRange;
             spawnPoint += origin;
             Instantiate(dashParticle, gameObject.transform.position, gameObject.transform.rotation);
             Cthulhu.transform.position = spawnPoint;
-        }
+            attackCD = attackCD - 2; 
+            }
 
 
     }
@@ -140,12 +139,17 @@ public class BossController : MonoBehaviour
 
     public void CheckAttack()
     {
+        bool random = (Random.value > 0.5f);
         if (attackCD > 0f)
         {
             attackCD = Mathf.Clamp(attackCD - Time.deltaTime, 0.0f, attackTimer);
         }
         else
         {
+            if (random)
+                CurrentAttack = attackTypes.Ranged;
+            else
+                CurrentAttack = attackTypes.Wait;
             Attack();
         }
     }
@@ -163,6 +167,15 @@ public class BossController : MonoBehaviour
         }
     }
 
+
+    public void Death()
+    {
+        dead = true;
+        animator.SetBool("Death", true);
+        rotationSpeed = 0;
+        bossSpeed = 0;
+
+    }
 
     private void OnDrawGizmosSelected()
     {

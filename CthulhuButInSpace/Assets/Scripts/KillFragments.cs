@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class KillFragments : MonoBehaviour
 {
-    public float minTime = 10.0f;
-    public float maxTime = 30.0f;
+    public float minTime = 5f;
+    public float maxTime = 10f;
     public bool isMaster;
     private float killTimer = 0.0f;
     IEnumerator KillFragment()

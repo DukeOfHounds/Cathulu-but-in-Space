@@ -28,7 +28,7 @@ namespace HealthAndDamage
 
         [Header("=== Boost Settings ===")]
         [SerializeField]
-        private float maxBoostAmount = 2f;//tank of gas
+        public float maxBoostAmount = 2f;//tank of gas
         [SerializeField]
         private float boostDeprecationRate = 0.25f;//fuel used
         [SerializeField]
@@ -67,7 +67,7 @@ namespace HealthAndDamage
         {
 
             rb = GetComponent<Rigidbody>();
-            currentBoostAmount = maxBoostAmount;
+            //currentBoostAmount = maxBoostAmount;
             Cursor.visible = false; // hides cursor 
             Cursor.lockState = CursorLockMode.Confined;// locks cursor to game window
             if(gM.tutorial == true)
@@ -78,10 +78,9 @@ namespace HealthAndDamage
 
         }
 
-        // Update is called once per frame
-        void Update()
+
+        void FixedUpdate()
         {
-            Cursor.visible = true;
 
             if (alive)
             {
@@ -270,17 +269,20 @@ namespace HealthAndDamage
         {
             if(gM.tutorial == false)
             {
-                boosting = context.performed;
+                if (currentBoostAmount > 0)
+                {
+                    boosting = context.performed;
+                }         
             }
         }
         public void OnPause(InputAction.CallbackContext context)
         {
-            if(gM.tutorial == false)
-            {
-                pauseScreen.gameObject.SetActive(true);
-                Cursor.visible = true;
-                Time.timeScale = 0;
-            }
+            //if(gM.tutorial == false)
+            //{
+            //    sP = true;
+            //    pauseScreen.gameObject.SetActive(true);
+            //    Time.timeScale = 0;
+            //}
 
 
         }

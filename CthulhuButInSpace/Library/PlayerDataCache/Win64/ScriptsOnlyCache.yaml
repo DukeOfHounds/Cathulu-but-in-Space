@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AsteroidGenerator
     - BossController
+    - CullingScript
     - HealthAndDamage.BossLaser
     - HealthAndDamage.Collisions
     - HealthAndDamage.GameManager
@@ -45,12 +46,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -151,33 +146,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5136}
     - Class: 114
-      Script: {instanceID: 5634}
+      Script: {instanceID: 5632}
     - Class: 114
-      Script: {instanceID: 5708}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 5896}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6574}
+      Script: {instanceID: 6572}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 7328}
     - Class: 114
-      Script: {instanceID: 7420}
+      Script: {instanceID: 7418}
     - Class: 114
-      Script: {instanceID: 7488}
+      Script: {instanceID: 7486}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 7838}
+      Script: {instanceID: 7836}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 7926}
     - Class: 114
-      Script: {instanceID: 8064}
+      Script: {instanceID: 8062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -234,13 +229,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3236}
     - Class: 114
-      Script: {instanceID: 5708}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6046}
     - Class: 114
-      Script: {instanceID: 6574}
+      Script: {instanceID: 6572}
     - Class: 114
-      Script: {instanceID: 7488}
+      Script: {instanceID: 7486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1136,12 +1131,6 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: e098caa9f8bf596850526aa0705bddd5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1686,6 +1675,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CullingScript
+  - hash:
+      serializedVersion: 2
+      Hash: 2488b9ce28deef192bb6699b43381522
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectCuller
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

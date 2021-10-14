@@ -79,7 +79,7 @@ namespace HealthAndDamage
                 {
                     case "Asteroid":
                         //Debug.Log("Boom");
-                        Instantiate(FracturedMesh, transform.position, transform.rotation); // creates scrap
+                        Instantiate(FracturedMesh, transform.position, transform.rotation); // creates scrap                        
                         Destroy(gameObject);
                         break;
                     case "Scrap":
