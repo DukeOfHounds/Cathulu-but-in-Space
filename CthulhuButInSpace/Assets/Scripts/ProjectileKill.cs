@@ -34,9 +34,9 @@ namespace HealthAndDamage
                 {
                     Instantiate(killParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);// explosion effect
                     collision.gameObject.GetComponent<HealthScript>().takeDamage(damage); // has collided object take damage
-                    if ((collision.gameObject.tag == "Asteroid") && (collision.gameObject.GetComponent<HealthScript>().health <= 0))
+                    if ((collision.gameObject.tag == "Asteroid" || collision.gameObject.tag == "Scrap") && (collision.gameObject.GetComponent<HealthScript>().health <= 0))
                     {
-                        player.gameObject.GetComponent<Spaceship>().currentBoostAmount = player.gameObject.GetComponent<Spaceship>().currentBoostAmount + 10;
+                        player.gameObject.GetComponent<Spaceship>().currentBoostAmount = player.gameObject.GetComponent<Spaceship>().currentBoostAmount += 10;
                         if (player.gameObject.GetComponent<Spaceship>().currentBoostAmount >= player.gameObject.GetComponent<Spaceship>().maxBoostAmount)
                         {
                             player.gameObject.GetComponent<Spaceship>().currentBoostAmount = player.gameObject.GetComponent<Spaceship>().maxBoostAmount;
@@ -49,7 +49,7 @@ namespace HealthAndDamage
                     collision.gameObject.GetComponent<HealthScript>().takeDamage(damage); // has collided object take damage
                     if ((collision.gameObject.tag == "Jewel") && (collision.gameObject.GetComponent<HealthScript>().health <= 0))
                     {
-                        player.gameObject.GetComponent<Spaceship>().currentBoostAmount = 100;
+                        player.gameObject.GetComponent<Spaceship>().currentBoostAmount += 100;
 
                     }
                     if (projectile.gameObject.tag == "Missile")

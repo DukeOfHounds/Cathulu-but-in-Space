@@ -25,6 +25,9 @@ namespace HealthAndDamage
 
         public GameObject gameOverUI;// game over UI
         public bool tutorial = true;
+
+        public AudioClip AS1;
+        public AudioClip AS2;
         
         private void Update()// for testing purposes. 
         {

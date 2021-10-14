@@ -36,14 +36,14 @@ namespace HealthAndDamage
                 {
                     healthText.text = "Health: " + (int)player.GetComponent<HealthScript>().health;
                     speedText.text = "Speed: " + (int)player.GetComponent<Rigidbody>().velocity.magnitude;
-                    if (player.GetComponent<Spaceship>().boosting)
-                    {
-                        BoostingText.text = "BOOSTING";
-                    }
-                    else
-                    {
-                        BoostingText.text = "";
-                    }
+                    //if (player.GetComponent<Spaceship>().boosting)
+                    //{
+                    BoostingText.text = "Boost\n  Tank:\n    " + (int)player.GetComponent<Spaceship>().currentBoostAmount;
+                    //}
+                    //else
+                    //{
+                    //    BoostingText.text = "";
+                    //}
                 }
                 if (keyDoor.GetComponent<JewelDoorSystem>().JewelsDestroyed && !keyDoor.GetComponent<JewelDoorSystem>().FoundPortal)
                 {

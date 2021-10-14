@@ -23,6 +23,7 @@ public class BossController : MonoBehaviour
     private float attackCD = 0f;
     public float attackTimer = 12f;
     private bool dead = false;
+    private GameObject gameManager;
 
     private enum attackTypes { Melee, Ranged, Tentacle, Wait };
     attackTypes CurrentAttack;
@@ -33,6 +34,7 @@ public class BossController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("GameManager");
         target = PlayerManager.instance.player.transform;
         cam = PlayerManager.instance.cam;
         rotationSpeed = startRotationSpeed;
@@ -50,6 +52,11 @@ public class BossController : MonoBehaviour
         {
             if (targetDistance <= sightRadius)
             {
+                
+                //if(gameManager.GetComponent<AudioSource>().clip == gameManager.GetComponent<>
+                //{
+
+                //}
                 MoveFaceTarget();
                 CheckAttack();
 
