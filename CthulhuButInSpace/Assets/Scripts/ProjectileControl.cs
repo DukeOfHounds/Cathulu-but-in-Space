@@ -136,7 +136,7 @@ namespace HealthAndDamage
         void InstantiateProjectile(Transform firePoint, GameObject projectile, float speed)
         {
             var projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
-            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * speed + spaceship.velocity;
+            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * (speed + spaceship.velocity.magnitude);
         }
 
         public void Unholster()

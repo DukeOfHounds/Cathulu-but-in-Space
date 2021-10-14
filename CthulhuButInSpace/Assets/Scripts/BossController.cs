@@ -24,7 +24,7 @@ public class BossController : MonoBehaviour
     public float attackTimer = 12f;
 
 
-    private enum attackTypes { Melee, Ranged, Tentacle };
+    private enum attackTypes { Melee, Ranged, Tentacle, Wait };
     attackTypes CurrentAttack;
 
     Transform target;
@@ -44,15 +44,30 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool random = (Random.value > 0.5f);
         float targetDistance = Vector3.Distance(target.position, transform.position);
 
         if (targetDistance <= sightRadius)
         {
             MoveFaceTarget();
             CheckAttack();
-            CurrentAttack = attackTypes.Ranged;
+            if (random)
+                CurrentAttack = attackTypes.Ranged;
+            else
+                CurrentAttack = attackTypes.Wait;
 
         }
+    }
+
+    IEnumerator Wait(float waitTime)
+    {
+        attackCD = attackTimer;
+        rotationSpeed = 0;
+        bossSpeed = 0;
+        yield return new WaitForSeconds(waitTime);
+        bossSpeed = bossStartSpeed;
+        rotationSpeed = startRotationSpeed;
+        attackCD = attackTimer;
     }
 
     IEnumerator ResetRangedAttack()
@@ -68,6 +83,7 @@ public class BossController : MonoBehaviour
         animator.SetTrigger("Attack");
         rotationSpeed = startRotationSpeed * 4f;
         yield return new WaitForSeconds(2f);
+        
         //canMove = false;
         //MoveFaceTarget();
         BossLaser.gameObject.GetComponent<HealthAndDamage.BossLaser>().damageActive = true;
@@ -115,6 +131,9 @@ public class BossController : MonoBehaviour
                 break;
             case attackTypes.Ranged:
                 StartCoroutine(LaserAttack());            
+                break;
+            case attackTypes.Wait:
+                StartCoroutine(Wait(6f));
                 break;
         }
     }

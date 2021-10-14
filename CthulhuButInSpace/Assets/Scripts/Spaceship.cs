@@ -215,7 +215,7 @@ namespace HealthAndDamage
 
         IEnumerator EndTutorial()
         {
-            yield return new WaitForSeconds(12f);
+            yield return new WaitForSeconds(6f);
             gM.tutorial = false;
             thrust1D = 0;
             this.gameObject.GetComponent<ProjectileControl>().Unholster();
