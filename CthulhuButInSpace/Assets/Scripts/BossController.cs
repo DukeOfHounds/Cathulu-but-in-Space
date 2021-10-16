@@ -153,10 +153,10 @@ public class BossController : MonoBehaviour
         }
         else
         {
-            if (random)
-                CurrentAttack = attackTypes.Ranged;
-            else
-                CurrentAttack = attackTypes.Wait;
+            //if (random)
+               CurrentAttack = attackTypes.Ranged;
+            //else
+                //CurrentAttack = attackTypes.Wait;
             Attack();
         }
     }

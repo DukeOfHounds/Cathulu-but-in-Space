@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class ObjectCuller : MonoBehaviour
 {
+    private GameObject culler = null;
 
-    public GameObject listObj;
-    private CullingScript cS;
+    private CullingScript cS = null;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
+
     {
-        StartCoroutine("AddToList");
+        culler = GameObject.Find("Culler");
+        cS = culler.GetComponent<CullingScript>();
     }
 
-    // Update is called once per frame
-
-    IEnumerator AddToList()
+    private void Start()
     {
-        
-        yield return new WaitForSeconds(6f);
-        listObj = GameObject.Find("Culler");
-        cS = listObj.GetComponent<CullingScript>();
-        cS.cullingObjs.Add(new Cull { item = this.gameObject, objPos = transform.position });
+        // Use a public method to add to the list, rather than making it public:
+        cS.Register(new Cull(this.gameObject, this.transform.position));
     }
 }

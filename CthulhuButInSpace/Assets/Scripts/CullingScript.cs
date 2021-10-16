@@ -6,81 +6,88 @@ using UnityEngine;
 public class CullingScript : MonoBehaviour
 {
     [SerializeField]
-    private Transform target;
-    public List<Cull> cullingObjs;
+    private float playerDist = 10f;
+    private GameObject player;
+    private List<Cull> cullingObjs;
+    private IEnumerator m_coroutine = null;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        target = PlayerManager.instance.player.transform;
-        this.gameObject.SetActive(false);
+        player = GameObject.FindWithTag("Player");
         cullingObjs = new List<Cull>();
         StartCoroutine(IsActive());
     }
 
-    IEnumerator IsActive()
+    // Update is called once per frame
+    private void Update()
+    {
+        if (m_coroutine != null) return;
+        {
+            m_coroutine = IsActive();
+            StartCoroutine(m_coroutine);
+        }
+    }
+
+    public void Register(Cull item)
+    {
+        cullingObjs.Add(item);
+    }
+
+    public void DeRegister(Cull item)
+    {
+        cullingObjs.Remove(item);
+    }
+
+    private IEnumerator IsActive()
     {
         List<Cull> removeList = new List<Cull>();
-        if (cullingObjs.Count > 0)
-        {
-            foreach (Cull i in cullingObjs)
-            {
-                if (Vector3.Distance(target.position, i.objPos) > 8000)
-                {
-                    if (i.item == null)
-                    {
-                        removeList.Add(i);
-                    }
-                    else
-                    {
-                        i.item.SetActive(false);
-                    }
-                }
-                else
-                {
-                    if (i.item == null)
-                    {
-                        removeList.Add(i);
-                    }
-                    else
-                    {
-                        i.item.SetActive(true);
-                    }
-                }
-            }
 
-        }
-        yield return new WaitForSeconds(0.01f);
-
-        if (removeList.Count > 0)
+        if (cullingObjs.Count > 0f)
         {
-            foreach (Cull i in removeList)
+            foreach (Cull item in cullingObjs)
             {
-                cullingObjs.Remove(i);
+                if (item.item == null)
+                {
+                    removeList.Add(item);
+                    continue;
+                }
+
+                item.item.SetActive(Vector3.Distance(player.transform.position, item.objPos) < playerDist);
+                // Alternative one liner, but might be harder to read:
+                //item.m_item.SetActive(Vector3.Distance(m_player.transform.position, item.m_itemPos) < m_distanceFromPlayer);
+
             }
         }
+
         yield return new WaitForSeconds(0.01f);
 
-        StartCoroutine(IsActive());
+        if (removeList.Count > 0f)
+        {
+            foreach (Cull item in removeList)
+            {
+                cullingObjs.Remove(item);
+            }
+        }
+
+        yield return new WaitForSeconds(0.01f);
+
+        m_coroutine = null;
     }
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        float targetDistance = Vector3.Distance(target.position, transform.position);
-
-            if (targetDistance <= 10000f)
-            this.gameObject.SetActive(true);
-            else
-            this.gameObject.SetActive(false);
-    }
-    
 }
+
+
+
+
 
 public class Cull
 {
     public GameObject item;
     public Vector3 objPos;
+        public Cull(GameObject item, Vector3 objPos)
+        {
+        this.item = item;
+        this.objPos = objPos;
+        }
+    
 }
