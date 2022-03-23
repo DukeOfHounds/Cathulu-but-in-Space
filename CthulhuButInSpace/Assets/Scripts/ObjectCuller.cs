@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectCuller : MonoBehaviour
 {
     private GameObject culler = null;
-
+    public float killDist = 1000f;
     private CullingScript cS = null;
 
 
@@ -19,6 +19,6 @@ public class ObjectCuller : MonoBehaviour
     private void Start()
     {
         // Use a public method to add to the list, rather than making it public:
-        cS.Register(new Cull(this.gameObject, this.transform.position));
+        cS.Register(new Cull(this.gameObject, this.transform.position, this.killDist));
     }
 }

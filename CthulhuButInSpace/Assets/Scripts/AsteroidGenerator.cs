@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AsteroidGenerator : MonoBehaviour
@@ -15,42 +17,42 @@ public class AsteroidGenerator : MonoBehaviour
     private bool onoff = false;
 
     // Start is called before the first frame update
-    void Start()
+
+    public async Task HandleSpawning(float duration, int i)
     {
-       
+        PickSpawnPoint();
+
+        //pick new spawn point if too close to player start
+        while (Vector3.Distance(spawnPoint, Vector3.zero) < startSafeRange)
+        {
+            PickSpawnPoint();
+        }
+        await Task.Yield();
+        onoff = !onoff;
+        if (onoff)
+        {
+            objectsToPlace.Add(Instantiate(asteroidOne, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
+            objectsToPlace[i].transform.parent = this.transform;
+        }
+        else
+        {
+            objectsToPlace.Add(Instantiate(asteroidTwo, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
+            objectsToPlace[i].transform.parent = this.transform;
+        }
+        
+    }
+    
+    void Start()
+    {    
+        StartSpawning();
+    }
+
+    public async void StartSpawning()
+    {
         for (int i = 0; i < amountToSpawn; i++)
         {
-
-            PickSpawnPoint();
-
-            //pick new spawn point if too close to player start
-            while (Vector3.Distance(spawnPoint, Vector3.zero) < startSafeRange)
-            {
-                PickSpawnPoint();
-            }
-            onoff = !onoff; // toggles onoff
-
-            if (onoff)
-            {
-                objectsToPlace.Add(Instantiate(asteroidOne, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
-                objectsToPlace[i].transform.parent = this.transform;
-            }
-            else
-            {
-                objectsToPlace.Add(Instantiate(asteroidTwo, spawnPoint, Quaternion.Euler(Random.Range(0f, 360f), Random.Range(0f, 360f), Random.Range(0f, 360f))));
-                objectsToPlace[i].transform.parent = this.transform;
-            }
-
+            await HandleSpawning(.01f, i);
         }
-
-        //if (onoff)
-        //{
-        //    asteroidOne.SetActive(false);
-        //}
-        //else
-        //{
-        //    asteroidTwo.SetActive(false);
-        //}
     }
 
     public void PickSpawnPoint()

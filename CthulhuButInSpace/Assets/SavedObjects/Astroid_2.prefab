@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 3537080176969554504}
   - component: {fileID: 4469102107663659387}
   - component: {fileID: 6659721237923570477}
-  - component: {fileID: -1547242642834314448}
+  - component: {fileID: 7903794696295244668}
+  - component: {fileID: -8108896884626074140}
   m_Layer: 0
   m_Name: Astroid_2
   m_TagString: Asteroid
@@ -143,7 +144,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bde8c5e0cddb1774abcd6a3b9f4414fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-1547242642834314448
+--- !u!205 &7903794696295244668
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5115198055469256283}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.000401241
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
+--- !u!114 &-8108896884626074140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,3 +180,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057e4543917411b46b9b4c94d8c25733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killDist: 10000

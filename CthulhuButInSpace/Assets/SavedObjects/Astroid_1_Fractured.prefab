@@ -1906,7 +1906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4258398130354034776}
   - component: {fileID: 2504569980928548065}
-  - component: {fileID: 1263153511703541314}
+  - component: {fileID: -7525169224642789188}
   m_Layer: 0
   m_Name: Astroid_1_Fractured
   m_TagString: Untagged
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   minTime: 28
   maxTime: 50
   isMaster: 1
---- !u!114 &1263153511703541314
+--- !u!114 &-7525169224642789188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1986,6 +1986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057e4543917411b46b9b4c94d8c25733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killDist: 10000
 --- !u!1 &3691658400305127244
 GameObject:
   m_ObjectHideFlags: 0

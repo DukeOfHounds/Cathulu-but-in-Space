@@ -72,13 +72,17 @@ namespace HealthAndDamage
             Cursor.lockState = CursorLockMode.Confined;// locks cursor to game window
             if(gM.tutorial == true)
             {
-                StartTutorial();
-                StartCoroutine(EndTutorial());
+                StartCoroutine(Initialize());
             }
 
         }
 
-
+        IEnumerator Initialize()
+        {
+            yield return new WaitForSeconds(2f);
+            StartTutorial();
+            StartCoroutine(EndTutorial());
+        }
         void FixedUpdate()
         {
 

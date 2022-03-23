@@ -53,7 +53,7 @@ public class CullingScript : MonoBehaviour
                     continue;
                 }
 
-                item.item.SetActive(Vector3.Distance(player.transform.position, item.objPos) < playerDist);
+                item.item.SetActive(Vector3.Distance(player.transform.position, item.objPos) < item.killDist);
                 // Alternative one liner, but might be harder to read:
                 //item.m_item.SetActive(Vector3.Distance(m_player.transform.position, item.m_itemPos) < m_distanceFromPlayer);
 
@@ -84,10 +84,13 @@ public class Cull
 {
     public GameObject item;
     public Vector3 objPos;
-        public Cull(GameObject item, Vector3 objPos)
-        {
+    public float killDist;
+        
+    public Cull(GameObject item, Vector3 objPos, float killDist)
+    {
         this.item = item;
         this.objPos = objPos;
-        }
+        this.killDist = killDist;
+    }
     
 }

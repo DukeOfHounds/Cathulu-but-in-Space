@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4674718619467895288}
   - component: {fileID: 7149563897055371570}
   - component: {fileID: 8950015368248974167}
+  - component: {fileID: 3657832879461945920}
   m_Layer: 0
   m_Name: Scrap_LP_1
   m_TagString: Scrap
@@ -129,6 +130,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &3657832879461945920
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672487389096339150}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &1754266010657063157
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +168,7 @@ GameObject:
   - component: {fileID: 6268562694258064823}
   - component: {fileID: 96650509251323247}
   - component: {fileID: 1612796738505328689}
+  - component: {fileID: 6429376160444479819}
   m_Layer: 0
   m_Name: Scrap_LP_3 (4)
   m_TagString: Scrap
@@ -258,6 +284,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &6429376160444479819
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754266010657063157}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &2443873690778545004
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +322,7 @@ GameObject:
   - component: {fileID: 2355017662775322992}
   - component: {fileID: 1713228644650445635}
   - component: {fileID: 7974040046170620805}
+  - component: {fileID: 3525711537688983185}
   m_Layer: 0
   m_Name: Scrap_LP_3 (3)
   m_TagString: Scrap
@@ -387,6 +438,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &3525711537688983185
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2443873690778545004}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &3035708008469636076
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +476,7 @@ GameObject:
   - component: {fileID: 8194003218325187687}
   - component: {fileID: 2361066251853695513}
   - component: {fileID: 8549073986124279627}
+  - component: {fileID: 7691969306707865626}
   m_Layer: 0
   m_Name: Scrap_LP_3 (1)
   m_TagString: Scrap
@@ -516,6 +592,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &7691969306707865626
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3035708008469636076}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &4685831356699182638
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5353859005624179860}
-  - component: {fileID: 2158624390796593569}
+  - component: {fileID: 8263956873575833513}
   m_Layer: 0
   m_Name: Scrap_2
   m_TagString: Scrap
@@ -556,7 +656,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2158624390796593569
+--- !u!114 &8263956873575833513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,6 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 057e4543917411b46b9b4c94d8c25733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killDist: 9000
 --- !u!1 &6341816607526181388
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +683,7 @@ GameObject:
   - component: {fileID: 7381842880399014699}
   - component: {fileID: 4062041312189573153}
   - component: {fileID: 6749666530046971457}
+  - component: {fileID: 34471827306310822}
   m_Layer: 0
   m_Name: Scrap_LP_2
   m_TagString: Scrap
@@ -697,6 +799,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &34471827306310822
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341816607526181388}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &7334567590500082112
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +837,7 @@ GameObject:
   - component: {fileID: 1077270297782648215}
   - component: {fileID: 7336092591844363298}
   - component: {fileID: 8762092900332062614}
+  - component: {fileID: 1615991073175201550}
   m_Layer: 0
   m_Name: Scrap_LP_3
   m_TagString: Scrap
@@ -826,6 +953,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &1615991073175201550
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7334567590500082112}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &7953793944411576074
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +991,7 @@ GameObject:
   - component: {fileID: 3953997562442457495}
   - component: {fileID: 7228159179267790915}
   - component: {fileID: 1211949568076442946}
+  - component: {fileID: 7252021973358722996}
   m_Layer: 0
   m_Name: Scrap_LP_3 (5)
   m_TagString: Scrap
@@ -955,6 +1107,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &7252021973358722996
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7953793944411576074}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &8165872972691102691
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1145,7 @@ GameObject:
   - component: {fileID: 4099818679021075401}
   - component: {fileID: 5942310636294535685}
   - component: {fileID: 4424582115168222486}
+  - component: {fileID: 7447066581837264648}
   m_Layer: 0
   m_Name: Scrap_LP_1 (1)
   m_TagString: Scrap
@@ -1084,6 +1261,30 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &7447066581837264648
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165872972691102691}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &9121925707037367334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1299,7 @@ GameObject:
   - component: {fileID: 9152032683332366502}
   - component: {fileID: 5249188405392841287}
   - component: {fileID: 5924362938588793513}
+  - component: {fileID: 625757015224380250}
   m_Layer: 0
   m_Name: Scrap_LP_3 (2)
   m_TagString: Scrap
@@ -1213,3 +1415,27 @@ MonoBehaviour:
   health: 1000
   animator: {fileID: 0}
   FracturedMesh: {fileID: 0}
+--- !u!205 &625757015224380250
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9121925707037367334}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.8
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.08
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
