@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-namespace gameControl
+namespace HealthAndDamage
 {
     [RequireComponent(typeof(Rigidbody))]
     public class Spaceship : MonoBehaviour
     {
         public float maxSpeed = 1;
+        public Canvas pauseScreen;
+        public GameManager gM;
+
 
         [Header("=== Ship Movement Settings ===")]
         [SerializeField]
@@ -25,7 +28,7 @@ namespace gameControl
 
         [Header("=== Boost Settings ===")]
         [SerializeField]
-        private float maxBoostAmount = 2f;//tank of gas
+        public float maxBoostAmount = 2f;//tank of gas
         [SerializeField]
         private float boostDeprecationRate = 0.25f;//fuel used
         [SerializeField]
@@ -64,15 +67,25 @@ namespace gameControl
         {
 
             rb = GetComponent<Rigidbody>();
-            currentBoostAmount = maxBoostAmount;
+            //currentBoostAmount = maxBoostAmount;
             Cursor.visible = false; // hides cursor 
             Cursor.lockState = CursorLockMode.Confined;// locks cursor to game window
+            if(gM.tutorial == true)
+            {
+                StartCoroutine(Initialize());
+            }
 
         }
 
-        // Update is called once per frame
-        void Update()
+        IEnumerator Initialize()
         {
+            yield return new WaitForSeconds(2f);
+            StartTutorial();
+            StartCoroutine(EndTutorial());
+        }
+        void FixedUpdate()
+        {
+
             if (alive)
             {
                 HandleBoosting();
@@ -198,36 +211,84 @@ namespace gameControl
 
         }
 
+        public void StartTutorial()
+        {
+            thrust1D = Mathf.Lerp(0f, 2.2f, 2f);
+        }
+
+        IEnumerator EndTutorial()
+        {
+            yield return new WaitForSeconds(6f);
+            gM.tutorial = false;
+            thrust1D = 0;
+            this.gameObject.GetComponent<ProjectileControl>().Unholster();
+            
+        }
         //interacts with the player controler for key bindings and input values
         #region Input Methods
         public void OnThrust(InputAction.CallbackContext context)
         {
-            thrust1D = context.ReadValue<float>();
+            if(gM.tutorial == false)
+            {
+                thrust1D = context.ReadValue<float>();
+            }
         }
         public void OnStrafe(InputAction.CallbackContext context)
         {
-            strafe1D = context.ReadValue<float>();
+           if(gM.tutorial == false)
+           {
+                strafe1D = context.ReadValue<float>();
+           }
         }
         public void OnUpDown(InputAction.CallbackContext context)
         {
-            upDown1D = context.ReadValue<float>();
+           if(gM.tutorial == false)
+           {
+                upDown1D = context.ReadValue<float>();
+           }
         }
         public void OnRoll(InputAction.CallbackContext context)
         {
-            roll1D = context.ReadValue<float>();
+            if(gM.tutorial == false)
+            {
+                roll1D = context.ReadValue<float>();
+            }
         }
         public void OnPitchYaw(InputAction.CallbackContext context)
         {
-            pitchYaw = context.ReadValue<Vector2>();
+            if(gM.tutorial == false)
+            {
+                pitchYaw = context.ReadValue<Vector2>();
+            }
         }
         public void OnStabalize(InputAction.CallbackContext context)
         {
-            Stabalize();
+            if(gM.tutorial == false)
+            {
+                Stabalize();
+            }
         }
 
         public void OnBoost(InputAction.CallbackContext context)
         {
-            boosting = context.performed;
+            if(gM.tutorial == false)
+            {
+                if (currentBoostAmount > 0)
+                {
+                    boosting = context.performed;
+                }         
+            }
+        }
+        public void OnPause(InputAction.CallbackContext context)
+        {
+            //if(gM.tutorial == false)
+            //{
+            //    sP = true;
+            //    pauseScreen.gameObject.SetActive(true);
+            //    Time.timeScale = 0;
+            //}
+
+
         }
         #endregion
     }

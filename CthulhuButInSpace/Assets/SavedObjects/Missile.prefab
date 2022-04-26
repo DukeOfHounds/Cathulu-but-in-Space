@@ -4920,7 +4920,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8161380403519514120}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -4942,8 +4942,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 8161380403519514120}
   timeToKill: 5
-  killParticle: {fileID: 1025285306637258, guid: d8f0099df63275647a8bcf646df1ca00, type: 3}
-  Damage: 10
+  killParticle: {fileID: 1947871717301538, guid: de4622cfab931d04ca77bf7623a7bc3c, type: 3}
+  damage: 10
 --- !u!1 &9208571572120985374
 GameObject:
   m_ObjectHideFlags: 0

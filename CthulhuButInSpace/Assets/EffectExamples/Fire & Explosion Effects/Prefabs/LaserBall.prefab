@@ -4739,9 +4739,10 @@ GameObject:
   - component: {fileID: 4209731392266258}
   - component: {fileID: 198706150799401992}
   - component: {fileID: 199577645087675124}
+  - component: {fileID: -2556049102766521151}
   m_Layer: 0
   m_Name: LaserBall
-  m_TagString: Untagged
+  m_TagString: Particle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9547,3 +9548,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &-2556049102766521151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947871717301538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb46eecd9103d6e468cb02fb21bd717f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1947871717301538}
+  timeToKill: 2
+  killParticle: {fileID: 1947871717301538}
+  damage: 0

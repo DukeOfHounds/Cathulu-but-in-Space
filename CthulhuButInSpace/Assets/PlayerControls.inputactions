@@ -84,6 +84,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Tap"
+                },
+                {
+                    "name": "PauseGame",
+                    "type": "Button",
+                    "id": "ba688af3-eee2-476a-ae2b-ffcf1fe4864c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
                 }
             ],
             "bindings": [
@@ -376,7 +384,7 @@
                 {
                     "name": "",
                     "id": "065c35b7-a1f7-4b12-8295-71d96bc58844",
-                    "path": "<Mouse>/middleButton",
+                    "path": "<Keyboard>/alt",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -431,11 +439,22 @@
                 {
                     "name": "",
                     "id": "56ba1b3f-3f20-46cd-8e69-a17764a8590f",
-                    "path": "<Keyboard>/alt",
+                    "path": "<Mouse>/middleButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "LaunchShockWave",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5a5a96f-0352-48ed-9759-d697b39d9a18",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseGame",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

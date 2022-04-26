@@ -10,15 +10,20 @@ namespace HealthAndDamage
 
         public Camera cam;
         public Rigidbody spaceship;
+        public Spaceship spaceshipRef;
+        private bool boosting;
+        public GameManager gM;
 
         private bool weaponHolstered = true;
         private float weaponHolserCD = 0.0f;
-        private float weaponHolsterTimer = 3.0f;
+        private float weaponHolsterTimer = 3.5f;
 
         public Animator laserL;
         public Animator laserR;
         public ParticleSystem laserLParticle;
         public ParticleSystem laserRParticle;
+        public ParticleSystem missileLParticle;
+        public ParticleSystem missileRParticle;
 
         public Animator missileL;
         public Animator missileR;
@@ -43,10 +48,12 @@ namespace HealthAndDamage
 
         private List<GameObject> ProjectilesFired = new List<GameObject>();
         private Vector3 destination;
-        private bool isFiring;
+        private bool isFiringLaser;
+        private bool isFiringMissile;
+        private bool isFiringShockwave;
 
-        
-     
+
+
 
         public void FireLaser()
         {
@@ -67,11 +74,13 @@ namespace HealthAndDamage
             //creates a projectile at LuanchPoint, with a rotaition facing ship forward.            
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
-
+            
             if (Physics.Raycast(ray, out hit))
                 destination = hit.point;
             else
-                destination = ray.GetPoint(1000);
+                    destination = ray.GetPoint(2000f);
+
+                
 
             InstantiateProjectile(laserLaunchPoint1, laser, laserSpeed);
             InstantiateProjectile(laserLaunchPoint2, laser, laserSpeed);
@@ -85,11 +94,13 @@ namespace HealthAndDamage
             //creates a projectile at LuanchPoint, with a rotaition facing ship forward. 
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
-
+            
             if (Physics.Raycast(ray, out hit))
                 destination = hit.point;
             else
-                destination = ray.GetPoint(1000);
+                    destination = ray.GetPoint(2000f);
+
+                
 
             InstantiateProjectile(laserLaunchPoint1, shockWave,shockWaveSpeed);
             InstantiateProjectile(laserLaunchPoint2, shockWave, shockWaveSpeed);
@@ -109,59 +120,83 @@ namespace HealthAndDamage
 
             weaponHolstered = false;
             weaponHolserCD = weaponHolsterTimer;
-            
+
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
+
             if (Physics.Raycast(ray, out hit))
                 destination = hit.point;
             else
-                destination = ray.GetPoint(1000);
+                    destination = ray.GetPoint(2000f);
+
+
 
             InstantiateProjectile(missileLaunchPoint1, missile, missileSpeed);
             InstantiateProjectile(missileLaunchPoint2, missile, missileSpeed);
-            
+
+            missileLParticle.Play();
+            missileRParticle.Play();
+
         }
 
 
         void InstantiateProjectile(Transform firePoint, GameObject projectile, float speed)
         {
             var projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
-            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * speed + spaceship.velocity;
+            projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * ((speed + spaceship.velocity.magnitude));
         }
 
+        public void Unholster()
+        {
+            laserL.SetBool("inCombat", true);
+            laserR.SetBool("inCombat", true);
+            missileL.SetBool("inCombat", true);
+            missileR.SetBool("inCombat", true);
+            weaponHolstered = false;
+            weaponHolserCD = weaponHolsterTimer;
+        }
 
         IEnumerator LaunchCheckLaser()
         {
-            isFiring = true;
+            isFiringLaser = true;
             FireLaser();
             yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            isFiringLaser = false;
             laserL.SetBool("Fire", false);
             laserR.SetBool("Fire", false);
         }
         IEnumerator LaunchCheckMissile()
         {
-            isFiring = true;
+            isFiringMissile = true;
             FireMissile();
-            yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            yield return new WaitForSeconds(.5f);
+            isFiringMissile = false;
             missileL.SetBool("Fire", false);
             missileR.SetBool("Fire", false);
 
         }
         IEnumerator LaunchCheckShockWave()
         {
-            isFiring = true;
+            isFiringShockwave = true;
             FireShockWave();
-            yield return new WaitForSeconds(.2f);
-            isFiring = false;
+            yield return new WaitForSeconds(1.0f);
+            isFiringShockwave = false;
 
         }
 
-
-
         void Update()
         {
+            boosting = spaceshipRef.boosting;
+           
+            if (boosting)
+            {
+                weaponHolstered = true;
+                laserL.SetBool("inCombat", false);
+                laserR.SetBool("inCombat", false);
+                missileL.SetBool("inCombat", false);
+                missileR.SetBool("inCombat", false);
+            }
+            
             if (weaponHolserCD > 0.0f)
             {
                 weaponHolserCD = Mathf.Clamp(weaponHolserCD - Time.deltaTime, 0.0f, weaponHolsterTimer);
@@ -180,29 +215,33 @@ namespace HealthAndDamage
         #region Input Methods
         public void OnLaunchLaser(InputAction.CallbackContext context)
         {
-            
-            if (isFiring == false)
+            if (gM.tutorial == false && boosting == false)
             {
-                StartCoroutine(LaunchCheckLaser());
+                if (isFiringLaser == false)
+                {
+                    StartCoroutine(LaunchCheckLaser());
+                }
             }
-
         }
         public void OnLaunchMissile(InputAction.CallbackContext context)
         {
-
-            if (isFiring == false)
+            if (gM.tutorial == false &&boosting == false)
             {
-                StartCoroutine(LaunchCheckMissile());
+                if (isFiringMissile == false)
+                {
+                    StartCoroutine(LaunchCheckMissile());
+                }
             }
-
         }
         public void OnLaunchShockWave(InputAction.CallbackContext context)
         {
-            if (isFiring == false)
+            if (gM.tutorial == false && boosting == false)
             {
-                StartCoroutine(LaunchCheckShockWave());
+                if (isFiringShockwave == false)
+                {
+                    StartCoroutine(LaunchCheckShockWave());
+                }
             }
-
         }
         #endregion
 
